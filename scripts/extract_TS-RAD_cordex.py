@@ -7,10 +7,11 @@ import pandas as pd
 from pathlib import Path
 
 # local libs
-sys.path.insert(1, '/home/gluzia_d/IAEA/Scripts/iaea')
-import interp as interp
-import search_cordex as pysearch
-import cordex_funcs as funcs
+ROOT = Path(__file__).resolve().parents[1]         # .../cordex_vre
+sys.path.insert(0, str(ROOT / "src"))
+from cordex_vre import interp
+from cordex_vre import search_cordex as pysearch
+from cordex_vre import utils as funcs
 
 from dask.distributed import Client, LocalCluster
 from dask.diagnostics import ProgressBar
@@ -63,7 +64,7 @@ rsds = funcs.open_opendap_ds(var, urls_rsds) #, tas.time)
 vre_cordex = rsds.expand_dims(dim={"height": 1})
 
 print('opening obs...', flush=True)
-metadata = pd.read_csv('obs_data/metadata_solarPV_ICOS.csv')
+metadata = pd.read_csv('/home/gluzia_d/cordex_vre/data/solar/metadata_solarPV_ICOS.csv')
 
 print('interpolating...', flush=True)
 print(vre_cordex, flush=True)
@@ -120,7 +121,7 @@ cordex_df = pd.DataFrame(
     columns=metadata['sites'].values
 )
 
-outname = f"RSDS-TS_{model}_{year_s}-{year_e}.csv"
+outname = f"/home/gluzia_d/cordex_vre/output/paper1/RSDS-TS_{model}_{year_s}-{year_e}.csv"
 print('writing TS...', flush=True)
 cordex_df.to_csv(outname, index_label="time")
 print('TS extraction complete.', flush=True)

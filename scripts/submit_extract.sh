@@ -7,7 +7,7 @@
 #SBATCH --cpus-per-task=20
 #SBATCH --mail-type=END
 #SBATCH --mail-user=gluzia@ictp.it
-#SBATCH -o rsds_esgf.%j.out
+#SBATCH -o logs/rsds_esgf.%j.out
 
 module load anaconda3/202105
 conda activate pyesgf
