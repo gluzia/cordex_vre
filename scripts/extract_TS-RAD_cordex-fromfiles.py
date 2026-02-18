@@ -1,23 +1,17 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-import os, sys
+import os, sys, glob
+from dask.distributed import Client, LocalCluster
 import xarray as xr
 import pandas as pd
-from pathlib import Path
+from datetime import datetime
+import netCDF4 as nc
+import numpy as np
 
-# local libs
+from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]         # .../cordex_vre
 sys.path.insert(0, str(ROOT / "src"))
 from cordex_vre import interp
 from cordex_vre import search_cordex as pysearch
 from cordex_vre import utils as funcs
-
-from dask.distributed import Client, LocalCluster
-from dask.diagnostics import ProgressBar
-import numpy as np
-
-# -------- Dask: modest worker count avoids network thrash --------
 N = min(8, int(os.environ.get("SLURM_CPUS_PER_TASK", "20")))
 client = Client(LocalCluster(
     n_workers=N,
@@ -26,27 +20,36 @@ client = Client(LocalCluster(
     local_directory=os.environ.get("DASK_TEMPORARY_DIRECTORY", "/tmp"),
 ))
 info = client.nthreads()
-print("workers:", len(info), "threads:", sum(info.values()), info, flush=True)
+print("workers:", len(info), "threads:", sum(info.values()), info)
+sys.stdout.flush()
 
-# -------- Args --------
-# Usage: python extract_TS-RAD_cordex_climate.py DOM GCM RCM EXP YEAR_S YEAR_E ENS CALENDAR NODE SERVER
-dom, gcm, rcm, exp, year_s, year_e, ens, calendar, node, server = sys.argv[1:10]
+gcm, rcm, exp, year_s, year_e = sys.argv[1:6]
 
-model = f"{gcm}_{rcm}"
-freq = '3hr'
-print(model, flush=True)
+base = "/home/netapp-clima-scratch/gluzia"
+dirpath = os.path.join(base, f"{gcm}_{rcm}_{year_s}-{year_e}")
+pattern = os.path.join(dirpath, "rsds*.nc")
+files = sorted(glob.glob(pattern))
+if not files:
+    raise FileNotFoundError(f"No files matched: {pattern}")
+small = [f for f in files if os.path.getsize(f) < 1024]
+if small:
+    print("WARNING: very small files:", small)
 
-# -------- ESGF search --------
-var = 'rsds'
-urls_rsds = pysearch.search_esgf(var, year_s, year_e, freq, gcm, rcm, ens, node, server, dom, exp)
-rsds = funcs.open_opendap_ds(var, urls_rsds) #, tas.time)
-vre_cordex = rsds.expand_dims(dim={"height": 1})
+ds = xr.open_mfdataset(
+    files,
+    engine="netcdf4",
+    combine="nested", concat_dim="time",
+    data_vars="minimal", coords="minimal", compat="override",
+    chunks={"time": 256},          #128/256/512 depending on memory
+    parallel=True,
+    preprocess=lambda d: d[["rsds"]],
+)
 
-print('opening obs...', flush=True)
+#Time shift to match other dataset time average ended at 0, 3, 9 etc
+ds = ds.assign_coords(time=ds.time + pd.Timedelta(minutes=90))
+vre_cordex = ds.expand_dims(dim={"height": 1})
+
 metadata = pd.read_csv('/home/gluzia_d/cordex_vre/data/solar/metadata_solarPV_ICOS.csv')
-
-print('interpolating...', flush=True)
-print(vre_cordex, flush=True)
 
 # Projection-specific station coords
 if rcm in ('RCA4', 'HadREM3-GA7-05'):
@@ -56,14 +59,13 @@ else:
     locs = funcs.crs_latlon2xy(metadata, 'lat', 'lon', 'elev', rcm)
     xname, yname = 'x', 'y'
 
-# Avoid log(0) in vertical interp
-elev = np.asarray(locs['elev'].values, dtype='float64')
-elev = np.where(elev <= 0, 1e-6, elev)
+elev_fixed = np.asarray(locs['elev'].values, dtype='float64')
+elev_fixed = np.where(elev_fixed <= 0, 1e-6, elev_fixed)
 
 weights_cordex = interp.get_interpolation_weights(
     px=locs[xname].values,
     py=locs[yname].values,
-    pz=elev,
+    pz=elev_fixed,                      # avoid log(0)
     all_x=vre_cordex[xname].values,
     all_y=vre_cordex[yname].values,
     all_z=vre_cordex['height'].values,
@@ -80,17 +82,15 @@ cordex_interp = interp.apply_interpolation_f(
     var_z_grid='height'
 )
 
-# -------- Extraction (vectorized; single compute) --------
-print('extracting TS...', flush=True)
-
-# cftime -> pandas datetime
+# fix time to pandas index once
 date_strings = [str(t) for t in cordex_interp.time.values]
 dates = pd.to_datetime(date_strings, errors='coerce')
 valid = dates.notna()
-if (~valid).any():
-    print(f"Dropping invalid dates: {(~valid).sum()}", flush=True)
 
 rs = cordex_interp['rsds'].isel(time=valid).transpose('time', 'locs_ID')
+
+# single compute for all sites
+from dask.diagnostics import ProgressBar
 with ProgressBar():
     rs_np = rs.compute().values
 
@@ -100,7 +100,7 @@ cordex_df = pd.DataFrame(
     columns=metadata['sites'].values
 )
 
-outname = f"/home/gluzia_d/cordex_vre/output/paper1/RSDS-TS_{model}_{year_s}-{year_e}.csv"
-print('writing TS...', flush=True)
-cordex_df.to_csv(outname, index_label="time")
+model_id = f"{gcm}_{rcm}"
+fname = f"RSDS-TS_{model_id}_{year_s}-{year_e}.csv"
+cordex_df.to_csv(fname, index_label="time")
 print('TS extraction complete.', flush=True)

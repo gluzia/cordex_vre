@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH -J TSxtrct_pyesgf
-#SBATCH -t 6:00:00
+#SBATCH -t 1:00:00
 #SBATCH -p long ###testing
 #SBATCH -N 1
 #SBATCH --ntasks-per-node=1
