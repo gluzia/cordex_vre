@@ -95,5 +95,6 @@ for key in common_keys:
     outname = f"{VAR}_{key}_1990-2025_merged.csv"
     outpath = OUTDIR / outname
     df.to_csv(outpath, index=False)
-    print(f"Wrote {outpath}  (rows={len(df)}, cols={df.shape[1]})")
+    print(f"Wrote {outpath}  (rows={len(df)}, cols={df.shape[1]})i. Done"
+
 
