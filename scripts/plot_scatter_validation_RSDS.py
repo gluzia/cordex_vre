@@ -10,17 +10,17 @@ import matplotlib.ticker as mticker
 # USER SETTINGS
 # =============================================================================
 
-STD_DIR = '/afs/ictp.it/home/g/gluzia_d/Documents/Postdoc/IAEA/Scripts/solar/CSVs/standardized/'
-OUTDIR  = '/afs/ictp.it/home/g/gluzia_d/Documents/Postdoc/IAEA/Scripts/plots/scatter_validation_solar/'
+STD_DIR = '/home/gluzia_d/cordex_vre/output/paper1/solar_CSVs/standardized/' #'/afs/ictp.it/home/g/gluzia_d/Documents/Postdoc/IAEA/Scripts/solar/CSVs/standardized/'
+OUTDIR  = '/home/gluzia_d/cordex_vre/plots/paper1/solar/' #'/afs/ictp.it/home/g/gluzia_d/Documents/Postdoc/IAEA/Scripts/plots/scatter_validation_solar/'
 os.makedirs(OUTDIR, exist_ok=True)
 METRICS_FILE = os.path.join(STD_DIR, "solar_scatter_metrics.pkl")
 
-if os.path.exists(METRICS_FILE):
-    os.remove(METRICS_FILE)
-    print("Deleted:", METRICS_FILE)
+#if os.path.exists(METRICS_FILE):
+#    os.remove(METRICS_FILE)
+#    print("Deleted:", METRICS_FILE)
 
 # =============================================================================
-# STANDARDIZED FILES (must match prepare_solar_data output names)
+# STANDARDIZED FILES 
 # =============================================================================
 
 FILES = {
@@ -50,8 +50,7 @@ FILES = {
     'MPI-H': '20years_RSDS-TS_MPI-M-MPI-ESM-LR_HadREM3-GA7-05_2006-2025_ICOS_standard.csv',
     'NCC-H': '20years_RSDS-TS_NCC-NorESM1-M_HadREM3-GA7-05_2006-2025_ICOS_standard.csv',
 
-    'ERA5':  '20years_RSDS-TS_ERA5_2006-202506_ICOS_shift_standard.csv',
-}
+    'ERA5':  '20years_RSDS-TS_ERA5_2006-202506_ICOS_shift_standard.csv',}
 
 # =============================================================================
 # FAMILY + COLORS (unchanged)
