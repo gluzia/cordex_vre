@@ -1,0 +1,2101 @@
+========================================
+Running year 1995
+========================================
+workers: 1 threads: 8 {'inproc://10.137.0.12/4124073/4': 8}
+Model: EC-Earth3-Veg_RegCM5-0
+Experiment: historical
+Years: 1995 1995
+Aggregation method: instant
+Building WS dataset from ua/va at 50, 100, 150 m...
+Opening ua50m and va50m
+ua50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199501010100-199601010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199501010100-199601010000.nc
+va50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199501010100-199601010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199501010100-199601010000.nc
+Opening ua100m and va100m
+ua100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199501010100-199601010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199501010100-199601010000.nc
+va100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199501010100-199601010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199501010100-199601010000.nc
+Opening ua150m and va150m
+ua150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199501010100-199601010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199501010100-199601010000.nc
+va150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199501010100-199601010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199501010100-199601010000.nc
+Applying time selection: instant
+<xarray.Dataset> Size: 6GB
+Dimensions:  (height: 3, rlat: 412, rlon: 424, time: 2920)
+Coordinates:
+  * height   (height) float64 24B 50.0 100.0 150.0
+  * rlat     (rlat) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+  * rlon     (rlon) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+    lat      (rlat, rlon) float64 1MB 20.24 20.28 20.32 ... 65.66 65.61 65.55
+    lon      (rlat, rlon) float64 1MB -9.74 -9.643 -9.545 ... 61.18 61.39 61.59
+  * time     (time) object 23kB 1995-01-01 03:00:00 ... 1996-01-01 00:00:00
+Data variables:
+    WS       (height, time, rlat, rlon) float32 6GB dask.array<chunksize=(1, 673, 412, 424), meta=np.ndarray>
+Opening metadata...
+Metadata sites: 32
+Metadata columns: ['sites', 'lat', 'lon', 'elev', 'type', 'location', 'assumed timezone']
+              sites      lat      lon   elev type  location assumed timezone
+0       Babbage_100  53.9630  1.21900  108.0    L  offshore              UTC
+1      Beatrice_100  58.1082 -3.06928  105.5    L  offshore              UTC
+2      Boerglum_100  57.3400  9.81000   31.5    M   coastal            UTC+1
+3        Cabauw_100  51.9700  4.93000  140.0    M      land              UTC
+4  EgmondaanZee_100  52.6064  4.38964  116.0    M  offshore              UTC
+No measurement-height column found. Using 100 m for all sites.
+TEMPORARY WORKAROUND: using nearest grid point from valid 2D lat/lon.
+This avoids broken rlat/rlon coordinates. Regenerate outputs after rlat/rlon are corrected.
+Babbage_100: site=(53.963, 1.219), grid=(54.013, 1.204), iy=268, ix=173, height=100.0 m
+Beatrice_100: site=(58.108, -3.069), grid=(58.045, -3.112), iy=309, ix=161, height=100.0 m
+Boerglum_100: site=(57.340, 9.810), grid=(57.305, 9.865), iy=290, ix=222, height=100.0 m
+Cabauw_100: site=(51.970, 4.930), grid=(51.993, 4.871), iy=246, ix=189, height=100.0 m
+EgmondaanZee_100: site=(52.606, 4.390), grid=(52.603, 4.324), iy=252, ix=187, height=100.0 m
+FINO1_100: site=(54.015, 6.588), grid=(53.947, 6.548), iy=262, ix=201, height=100.0 m
+FINO2_100: site=(55.007, 13.154), grid=(55.038, 13.186), iy=268, ix=237, height=100.0 m
+FINO3_100: site=(55.195, 7.119), grid=(55.225, 7.170), iy=273, ix=206, height=100.0 m
+GreaterGabbard_100: site=(51.873, 1.915), grid=(51.866, 2.004), iy=248, ix=173, height=100.0 m
+HornsRev2_100: site=(55.519, 7.788), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+HornsRevM7_100: site=(55.487, 7.975), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+Hovsore_100: site=(56.441, 8.151), grid=(56.421, 8.249), iy=283, ix=213, height=100.0 m
+Ijmuiden_100: site=(52.848, 3.436), grid=(52.844, 3.508), iy=255, ix=183, height=100.0 m
+Karehamn_100: site=(57.009, 17.006), grid=(56.994, 16.969), iy=285, ix=257, height=100.0 m
+Lillgrund_100: site=(55.500, 12.765), grid=(55.462, 12.749), iy=272, ix=235, height=100.0 m
+Oesterild_100: site=(57.079, 8.869), grid=(57.132, 8.887), iy=289, ix=217, height=100.0 m
+OesterildS_100: site=(57.051, 8.875), grid=(57.022, 8.912), iy=288, ix=217, height=100.0 m
+Omoe_100: site=(55.050, 11.130), grid=(55.051, 11.071), iy=269, ix=226, height=100.0 m
+Risoe_100: site=(55.694, 12.088), grid=(55.656, 12.140), iy=274, ix=232, height=100.0 m
+Ryningsnaas_100: site=(57.276, 15.987), grid=(57.312, 15.949), iy=288, ix=252, height=100.0 m
+Schooner_100: site=(54.050, 2.083), grid=(54.025, 2.156), iy=267, ix=178, height=100.0 m
+Siri_100: site=(56.482, 4.911), grid=(56.460, 4.834), iy=286, ix=196, height=100.0 m
+Soroe_100: site=(55.486, 11.645), grid=(55.519, 11.577), iy=273, ix=229, height=100.0 m
+Taqa_100: site=(52.306, 3.685), grid=(52.304, 3.683), iy=250, ix=183, height=100.0 m
+Tystofte_100: site=(55.240, 11.330), grid=(55.291, 11.418), iy=271, ix=228, height=100.0 m
+Utsira_100: site=(59.303, 4.887), grid=(59.263, 4.925), iy=311, ix=201, height=100.0 m
+Lindenberg_100: site=(52.170, 14.120), grid=(52.208, 14.206), iy=242, ix=241, height=100.0 m
+Hyytiala_100: site=(61.850, 24.290), grid=(61.815, 24.376), iy=330, ix=290, height=100.0 m
+Puijo_100: site=(62.910, 27.650), grid=(62.864, 27.661), iy=341, ix=303, height=100.0 m
+DockingShoal_100: site=(53.160, 0.650), grid=(53.138, 0.600), iy=261, ix=168, height=100.0 m
+GwyntYMor_100: site=(53.480, -3.510), grid=(53.498, -3.555), iy=270, ix=147, height=100.0 m
+LondonArray_100: site=(51.590, 1.390), grid=(51.556, 1.388), iy=246, ix=169, height=100.0 m
+<xarray.DataArray 'Babbage_100' (site: 32, time: 2920)> Size: 374kB
+dask.array<concatenate, shape=(32, 2920), dtype=float32, chunksize=(1, 228), chunktype=numpy.ndarray>
+Coordinates:
+  * site     (site) object 256B 'Babbage_100' ... 'LondonArray_100'
+    lat      (site) float64 256B 54.01 58.05 57.3 51.99 ... 53.14 53.5 51.56
+    lon      (site) float64 256B 1.204 -3.112 9.865 ... 0.6005 -3.555 1.388
+  * time     (time) object 23kB 1995-01-01 03:00:00 ... 1996-01-01 00:00:00
+    height   float64 8B 100.0
+    rlon     float64 8B 9.969e+36
+    rlat     float64 8B 9.969e+36
+Attributes:
+    units:         m s-1
+    grid_mapping:  crs
+    cell_methods:  time: point
+Extracting time series...
+Writing: /leonardo/home/userexternal/gluziada/VRE_CORDEX/cordex_vre/output/cordex_cmip6/WS-TS_CORDEX-CMIP6_EC-Earth3-Veg_RegCM5-0_historical_r1i1p1f1_1995-1995_instant_TEMP_NEAREST.csv
+WS extraction complete.
+TEMPORARY OUTPUT: nearest-neighbour horizontal extraction.
+Finished year 1995
+========================================
+Running year 1996
+========================================
+workers: 1 threads: 8 {'inproc://10.137.0.12/4133709/4': 8}
+Model: EC-Earth3-Veg_RegCM5-0
+Experiment: historical
+Years: 1996 1996
+Aggregation method: instant
+Building WS dataset from ua/va at 50, 100, 150 m...
+Opening ua50m and va50m
+ua50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199601010100-199701010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199601010100-199701010000.nc
+va50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199601010100-199701010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199601010100-199701010000.nc
+Opening ua100m and va100m
+ua100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199601010100-199701010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199601010100-199701010000.nc
+va100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199601010100-199701010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199601010100-199701010000.nc
+Opening ua150m and va150m
+ua150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199601010100-199701010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199601010100-199701010000.nc
+va150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199601010100-199701010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199601010100-199701010000.nc
+Applying time selection: instant
+<xarray.Dataset> Size: 6GB
+Dimensions:  (height: 3, rlat: 412, rlon: 424, time: 2928)
+Coordinates:
+  * height   (height) float64 24B 50.0 100.0 150.0
+  * rlat     (rlat) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+  * rlon     (rlon) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+    lat      (rlat, rlon) float64 1MB 20.24 20.28 20.32 ... 65.66 65.61 65.55
+    lon      (rlat, rlon) float64 1MB -9.74 -9.643 -9.545 ... 61.18 61.39 61.59
+  * time     (time) object 23kB 1996-01-01 03:00:00 ... 1997-01-01 00:00:00
+Data variables:
+    WS       (height, time, rlat, rlon) float32 6GB dask.array<chunksize=(1, 675, 412, 424), meta=np.ndarray>
+Opening metadata...
+Metadata sites: 32
+Metadata columns: ['sites', 'lat', 'lon', 'elev', 'type', 'location', 'assumed timezone']
+              sites      lat      lon   elev type  location assumed timezone
+0       Babbage_100  53.9630  1.21900  108.0    L  offshore              UTC
+1      Beatrice_100  58.1082 -3.06928  105.5    L  offshore              UTC
+2      Boerglum_100  57.3400  9.81000   31.5    M   coastal            UTC+1
+3        Cabauw_100  51.9700  4.93000  140.0    M      land              UTC
+4  EgmondaanZee_100  52.6064  4.38964  116.0    M  offshore              UTC
+No measurement-height column found. Using 100 m for all sites.
+TEMPORARY WORKAROUND: using nearest grid point from valid 2D lat/lon.
+This avoids broken rlat/rlon coordinates. Regenerate outputs after rlat/rlon are corrected.
+Babbage_100: site=(53.963, 1.219), grid=(54.013, 1.204), iy=268, ix=173, height=100.0 m
+Beatrice_100: site=(58.108, -3.069), grid=(58.045, -3.112), iy=309, ix=161, height=100.0 m
+Boerglum_100: site=(57.340, 9.810), grid=(57.305, 9.865), iy=290, ix=222, height=100.0 m
+Cabauw_100: site=(51.970, 4.930), grid=(51.993, 4.871), iy=246, ix=189, height=100.0 m
+EgmondaanZee_100: site=(52.606, 4.390), grid=(52.603, 4.324), iy=252, ix=187, height=100.0 m
+FINO1_100: site=(54.015, 6.588), grid=(53.947, 6.548), iy=262, ix=201, height=100.0 m
+FINO2_100: site=(55.007, 13.154), grid=(55.038, 13.186), iy=268, ix=237, height=100.0 m
+FINO3_100: site=(55.195, 7.119), grid=(55.225, 7.170), iy=273, ix=206, height=100.0 m
+GreaterGabbard_100: site=(51.873, 1.915), grid=(51.866, 2.004), iy=248, ix=173, height=100.0 m
+HornsRev2_100: site=(55.519, 7.788), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+HornsRevM7_100: site=(55.487, 7.975), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+Hovsore_100: site=(56.441, 8.151), grid=(56.421, 8.249), iy=283, ix=213, height=100.0 m
+Ijmuiden_100: site=(52.848, 3.436), grid=(52.844, 3.508), iy=255, ix=183, height=100.0 m
+Karehamn_100: site=(57.009, 17.006), grid=(56.994, 16.969), iy=285, ix=257, height=100.0 m
+Lillgrund_100: site=(55.500, 12.765), grid=(55.462, 12.749), iy=272, ix=235, height=100.0 m
+Oesterild_100: site=(57.079, 8.869), grid=(57.132, 8.887), iy=289, ix=217, height=100.0 m
+OesterildS_100: site=(57.051, 8.875), grid=(57.022, 8.912), iy=288, ix=217, height=100.0 m
+Omoe_100: site=(55.050, 11.130), grid=(55.051, 11.071), iy=269, ix=226, height=100.0 m
+Risoe_100: site=(55.694, 12.088), grid=(55.656, 12.140), iy=274, ix=232, height=100.0 m
+Ryningsnaas_100: site=(57.276, 15.987), grid=(57.312, 15.949), iy=288, ix=252, height=100.0 m
+Schooner_100: site=(54.050, 2.083), grid=(54.025, 2.156), iy=267, ix=178, height=100.0 m
+Siri_100: site=(56.482, 4.911), grid=(56.460, 4.834), iy=286, ix=196, height=100.0 m
+Soroe_100: site=(55.486, 11.645), grid=(55.519, 11.577), iy=273, ix=229, height=100.0 m
+Taqa_100: site=(52.306, 3.685), grid=(52.304, 3.683), iy=250, ix=183, height=100.0 m
+Tystofte_100: site=(55.240, 11.330), grid=(55.291, 11.418), iy=271, ix=228, height=100.0 m
+Utsira_100: site=(59.303, 4.887), grid=(59.263, 4.925), iy=311, ix=201, height=100.0 m
+Lindenberg_100: site=(52.170, 14.120), grid=(52.208, 14.206), iy=242, ix=241, height=100.0 m
+Hyytiala_100: site=(61.850, 24.290), grid=(61.815, 24.376), iy=330, ix=290, height=100.0 m
+Puijo_100: site=(62.910, 27.650), grid=(62.864, 27.661), iy=341, ix=303, height=100.0 m
+DockingShoal_100: site=(53.160, 0.650), grid=(53.138, 0.600), iy=261, ix=168, height=100.0 m
+GwyntYMor_100: site=(53.480, -3.510), grid=(53.498, -3.555), iy=270, ix=147, height=100.0 m
+LondonArray_100: site=(51.590, 1.390), grid=(51.556, 1.388), iy=246, ix=169, height=100.0 m
+<xarray.DataArray 'Babbage_100' (site: 32, time: 2928)> Size: 375kB
+dask.array<concatenate, shape=(32, 2928), dtype=float32, chunksize=(1, 228), chunktype=numpy.ndarray>
+Coordinates:
+  * site     (site) object 256B 'Babbage_100' ... 'LondonArray_100'
+    lat      (site) float64 256B 54.01 58.05 57.3 51.99 ... 53.14 53.5 51.56
+    lon      (site) float64 256B 1.204 -3.112 9.865 ... 0.6005 -3.555 1.388
+  * time     (time) object 23kB 1996-01-01 03:00:00 ... 1997-01-01 00:00:00
+    height   float64 8B 100.0
+    rlon     float64 8B 9.969e+36
+    rlat     float64 8B 9.969e+36
+Attributes:
+    units:         m s-1
+    grid_mapping:  crs
+    cell_methods:  time: point
+Extracting time series...
+Writing: /leonardo/home/userexternal/gluziada/VRE_CORDEX/cordex_vre/output/cordex_cmip6/WS-TS_CORDEX-CMIP6_EC-Earth3-Veg_RegCM5-0_historical_r1i1p1f1_1996-1996_instant_TEMP_NEAREST.csv
+WS extraction complete.
+TEMPORARY OUTPUT: nearest-neighbour horizontal extraction.
+Finished year 1996
+========================================
+Running year 1997
+========================================
+workers: 1 threads: 8 {'inproc://10.137.0.12/4187186/4': 8}
+Model: EC-Earth3-Veg_RegCM5-0
+Experiment: historical
+Years: 1997 1997
+Aggregation method: instant
+Building WS dataset from ua/va at 50, 100, 150 m...
+Opening ua50m and va50m
+ua50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199701010100-199801010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199701010100-199801010000.nc
+va50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199701010100-199801010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199701010100-199801010000.nc
+Opening ua100m and va100m
+ua100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199701010100-199801010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199701010100-199801010000.nc
+va100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199701010100-199801010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199701010100-199801010000.nc
+Opening ua150m and va150m
+ua150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199701010100-199801010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199701010100-199801010000.nc
+va150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199701010100-199801010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199701010100-199801010000.nc
+Applying time selection: instant
+<xarray.Dataset> Size: 6GB
+Dimensions:  (height: 3, rlat: 412, rlon: 424, time: 2920)
+Coordinates:
+  * height   (height) float64 24B 50.0 100.0 150.0
+  * rlat     (rlat) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+  * rlon     (rlon) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+    lat      (rlat, rlon) float64 1MB 20.24 20.28 20.32 ... 65.66 65.61 65.55
+    lon      (rlat, rlon) float64 1MB -9.74 -9.643 -9.545 ... 61.18 61.39 61.59
+  * time     (time) object 23kB 1997-01-01 03:00:00 ... 1998-01-01 00:00:00
+Data variables:
+    WS       (height, time, rlat, rlon) float32 6GB dask.array<chunksize=(1, 673, 412, 424), meta=np.ndarray>
+Opening metadata...
+Metadata sites: 32
+Metadata columns: ['sites', 'lat', 'lon', 'elev', 'type', 'location', 'assumed timezone']
+              sites      lat      lon   elev type  location assumed timezone
+0       Babbage_100  53.9630  1.21900  108.0    L  offshore              UTC
+1      Beatrice_100  58.1082 -3.06928  105.5    L  offshore              UTC
+2      Boerglum_100  57.3400  9.81000   31.5    M   coastal            UTC+1
+3        Cabauw_100  51.9700  4.93000  140.0    M      land              UTC
+4  EgmondaanZee_100  52.6064  4.38964  116.0    M  offshore              UTC
+No measurement-height column found. Using 100 m for all sites.
+TEMPORARY WORKAROUND: using nearest grid point from valid 2D lat/lon.
+This avoids broken rlat/rlon coordinates. Regenerate outputs after rlat/rlon are corrected.
+Babbage_100: site=(53.963, 1.219), grid=(54.013, 1.204), iy=268, ix=173, height=100.0 m
+Beatrice_100: site=(58.108, -3.069), grid=(58.045, -3.112), iy=309, ix=161, height=100.0 m
+Boerglum_100: site=(57.340, 9.810), grid=(57.305, 9.865), iy=290, ix=222, height=100.0 m
+Cabauw_100: site=(51.970, 4.930), grid=(51.993, 4.871), iy=246, ix=189, height=100.0 m
+EgmondaanZee_100: site=(52.606, 4.390), grid=(52.603, 4.324), iy=252, ix=187, height=100.0 m
+FINO1_100: site=(54.015, 6.588), grid=(53.947, 6.548), iy=262, ix=201, height=100.0 m
+FINO2_100: site=(55.007, 13.154), grid=(55.038, 13.186), iy=268, ix=237, height=100.0 m
+FINO3_100: site=(55.195, 7.119), grid=(55.225, 7.170), iy=273, ix=206, height=100.0 m
+GreaterGabbard_100: site=(51.873, 1.915), grid=(51.866, 2.004), iy=248, ix=173, height=100.0 m
+HornsRev2_100: site=(55.519, 7.788), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+HornsRevM7_100: site=(55.487, 7.975), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+Hovsore_100: site=(56.441, 8.151), grid=(56.421, 8.249), iy=283, ix=213, height=100.0 m
+Ijmuiden_100: site=(52.848, 3.436), grid=(52.844, 3.508), iy=255, ix=183, height=100.0 m
+Karehamn_100: site=(57.009, 17.006), grid=(56.994, 16.969), iy=285, ix=257, height=100.0 m
+Lillgrund_100: site=(55.500, 12.765), grid=(55.462, 12.749), iy=272, ix=235, height=100.0 m
+Oesterild_100: site=(57.079, 8.869), grid=(57.132, 8.887), iy=289, ix=217, height=100.0 m
+OesterildS_100: site=(57.051, 8.875), grid=(57.022, 8.912), iy=288, ix=217, height=100.0 m
+Omoe_100: site=(55.050, 11.130), grid=(55.051, 11.071), iy=269, ix=226, height=100.0 m
+Risoe_100: site=(55.694, 12.088), grid=(55.656, 12.140), iy=274, ix=232, height=100.0 m
+Ryningsnaas_100: site=(57.276, 15.987), grid=(57.312, 15.949), iy=288, ix=252, height=100.0 m
+Schooner_100: site=(54.050, 2.083), grid=(54.025, 2.156), iy=267, ix=178, height=100.0 m
+Siri_100: site=(56.482, 4.911), grid=(56.460, 4.834), iy=286, ix=196, height=100.0 m
+Soroe_100: site=(55.486, 11.645), grid=(55.519, 11.577), iy=273, ix=229, height=100.0 m
+Taqa_100: site=(52.306, 3.685), grid=(52.304, 3.683), iy=250, ix=183, height=100.0 m
+Tystofte_100: site=(55.240, 11.330), grid=(55.291, 11.418), iy=271, ix=228, height=100.0 m
+Utsira_100: site=(59.303, 4.887), grid=(59.263, 4.925), iy=311, ix=201, height=100.0 m
+Lindenberg_100: site=(52.170, 14.120), grid=(52.208, 14.206), iy=242, ix=241, height=100.0 m
+Hyytiala_100: site=(61.850, 24.290), grid=(61.815, 24.376), iy=330, ix=290, height=100.0 m
+Puijo_100: site=(62.910, 27.650), grid=(62.864, 27.661), iy=341, ix=303, height=100.0 m
+DockingShoal_100: site=(53.160, 0.650), grid=(53.138, 0.600), iy=261, ix=168, height=100.0 m
+GwyntYMor_100: site=(53.480, -3.510), grid=(53.498, -3.555), iy=270, ix=147, height=100.0 m
+LondonArray_100: site=(51.590, 1.390), grid=(51.556, 1.388), iy=246, ix=169, height=100.0 m
+<xarray.DataArray 'Babbage_100' (site: 32, time: 2920)> Size: 374kB
+dask.array<concatenate, shape=(32, 2920), dtype=float32, chunksize=(1, 228), chunktype=numpy.ndarray>
+Coordinates:
+  * site     (site) object 256B 'Babbage_100' ... 'LondonArray_100'
+    lat      (site) float64 256B 54.01 58.05 57.3 51.99 ... 53.14 53.5 51.56
+    lon      (site) float64 256B 1.204 -3.112 9.865 ... 0.6005 -3.555 1.388
+  * time     (time) object 23kB 1997-01-01 03:00:00 ... 1998-01-01 00:00:00
+    height   float64 8B 100.0
+    rlon     float64 8B 9.969e+36
+    rlat     float64 8B 9.969e+36
+Attributes:
+    units:         m s-1
+    grid_mapping:  crs
+    cell_methods:  time: point
+Extracting time series...
+Writing: /leonardo/home/userexternal/gluziada/VRE_CORDEX/cordex_vre/output/cordex_cmip6/WS-TS_CORDEX-CMIP6_EC-Earth3-Veg_RegCM5-0_historical_r1i1p1f1_1997-1997_instant_TEMP_NEAREST.csv
+WS extraction complete.
+TEMPORARY OUTPUT: nearest-neighbour horizontal extraction.
+Finished year 1997
+========================================
+Running year 1998
+========================================
+workers: 1 threads: 8 {'inproc://10.137.0.12/13374/4': 8}
+Model: EC-Earth3-Veg_RegCM5-0
+Experiment: historical
+Years: 1998 1998
+Aggregation method: instant
+Building WS dataset from ua/va at 50, 100, 150 m...
+Opening ua50m and va50m
+ua50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199801010100-199901010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199801010100-199901010000.nc
+va50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199801010100-199901010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199801010100-199901010000.nc
+Opening ua100m and va100m
+ua100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199801010100-199901010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199801010100-199901010000.nc
+va100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199801010100-199901010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199801010100-199901010000.nc
+Opening ua150m and va150m
+ua150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199801010100-199901010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199801010100-199901010000.nc
+va150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199801010100-199901010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199801010100-199901010000.nc
+Applying time selection: instant
+<xarray.Dataset> Size: 6GB
+Dimensions:  (height: 3, rlat: 412, rlon: 424, time: 2920)
+Coordinates:
+  * height   (height) float64 24B 50.0 100.0 150.0
+  * rlat     (rlat) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+  * rlon     (rlon) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+    lat      (rlat, rlon) float64 1MB 20.24 20.28 20.32 ... 65.66 65.61 65.55
+    lon      (rlat, rlon) float64 1MB -9.74 -9.643 -9.545 ... 61.18 61.39 61.59
+  * time     (time) object 23kB 1998-01-01 03:00:00 ... 1999-01-01 00:00:00
+Data variables:
+    WS       (height, time, rlat, rlon) float32 6GB dask.array<chunksize=(1, 673, 412, 424), meta=np.ndarray>
+Opening metadata...
+Metadata sites: 32
+Metadata columns: ['sites', 'lat', 'lon', 'elev', 'type', 'location', 'assumed timezone']
+              sites      lat      lon   elev type  location assumed timezone
+0       Babbage_100  53.9630  1.21900  108.0    L  offshore              UTC
+1      Beatrice_100  58.1082 -3.06928  105.5    L  offshore              UTC
+2      Boerglum_100  57.3400  9.81000   31.5    M   coastal            UTC+1
+3        Cabauw_100  51.9700  4.93000  140.0    M      land              UTC
+4  EgmondaanZee_100  52.6064  4.38964  116.0    M  offshore              UTC
+No measurement-height column found. Using 100 m for all sites.
+TEMPORARY WORKAROUND: using nearest grid point from valid 2D lat/lon.
+This avoids broken rlat/rlon coordinates. Regenerate outputs after rlat/rlon are corrected.
+Babbage_100: site=(53.963, 1.219), grid=(54.013, 1.204), iy=268, ix=173, height=100.0 m
+Beatrice_100: site=(58.108, -3.069), grid=(58.045, -3.112), iy=309, ix=161, height=100.0 m
+Boerglum_100: site=(57.340, 9.810), grid=(57.305, 9.865), iy=290, ix=222, height=100.0 m
+Cabauw_100: site=(51.970, 4.930), grid=(51.993, 4.871), iy=246, ix=189, height=100.0 m
+EgmondaanZee_100: site=(52.606, 4.390), grid=(52.603, 4.324), iy=252, ix=187, height=100.0 m
+FINO1_100: site=(54.015, 6.588), grid=(53.947, 6.548), iy=262, ix=201, height=100.0 m
+FINO2_100: site=(55.007, 13.154), grid=(55.038, 13.186), iy=268, ix=237, height=100.0 m
+FINO3_100: site=(55.195, 7.119), grid=(55.225, 7.170), iy=273, ix=206, height=100.0 m
+GreaterGabbard_100: site=(51.873, 1.915), grid=(51.866, 2.004), iy=248, ix=173, height=100.0 m
+HornsRev2_100: site=(55.519, 7.788), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+HornsRevM7_100: site=(55.487, 7.975), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+Hovsore_100: site=(56.441, 8.151), grid=(56.421, 8.249), iy=283, ix=213, height=100.0 m
+Ijmuiden_100: site=(52.848, 3.436), grid=(52.844, 3.508), iy=255, ix=183, height=100.0 m
+Karehamn_100: site=(57.009, 17.006), grid=(56.994, 16.969), iy=285, ix=257, height=100.0 m
+Lillgrund_100: site=(55.500, 12.765), grid=(55.462, 12.749), iy=272, ix=235, height=100.0 m
+Oesterild_100: site=(57.079, 8.869), grid=(57.132, 8.887), iy=289, ix=217, height=100.0 m
+OesterildS_100: site=(57.051, 8.875), grid=(57.022, 8.912), iy=288, ix=217, height=100.0 m
+Omoe_100: site=(55.050, 11.130), grid=(55.051, 11.071), iy=269, ix=226, height=100.0 m
+Risoe_100: site=(55.694, 12.088), grid=(55.656, 12.140), iy=274, ix=232, height=100.0 m
+Ryningsnaas_100: site=(57.276, 15.987), grid=(57.312, 15.949), iy=288, ix=252, height=100.0 m
+Schooner_100: site=(54.050, 2.083), grid=(54.025, 2.156), iy=267, ix=178, height=100.0 m
+Siri_100: site=(56.482, 4.911), grid=(56.460, 4.834), iy=286, ix=196, height=100.0 m
+Soroe_100: site=(55.486, 11.645), grid=(55.519, 11.577), iy=273, ix=229, height=100.0 m
+Taqa_100: site=(52.306, 3.685), grid=(52.304, 3.683), iy=250, ix=183, height=100.0 m
+Tystofte_100: site=(55.240, 11.330), grid=(55.291, 11.418), iy=271, ix=228, height=100.0 m
+Utsira_100: site=(59.303, 4.887), grid=(59.263, 4.925), iy=311, ix=201, height=100.0 m
+Lindenberg_100: site=(52.170, 14.120), grid=(52.208, 14.206), iy=242, ix=241, height=100.0 m
+Hyytiala_100: site=(61.850, 24.290), grid=(61.815, 24.376), iy=330, ix=290, height=100.0 m
+Puijo_100: site=(62.910, 27.650), grid=(62.864, 27.661), iy=341, ix=303, height=100.0 m
+DockingShoal_100: site=(53.160, 0.650), grid=(53.138, 0.600), iy=261, ix=168, height=100.0 m
+GwyntYMor_100: site=(53.480, -3.510), grid=(53.498, -3.555), iy=270, ix=147, height=100.0 m
+LondonArray_100: site=(51.590, 1.390), grid=(51.556, 1.388), iy=246, ix=169, height=100.0 m
+<xarray.DataArray 'Babbage_100' (site: 32, time: 2920)> Size: 374kB
+dask.array<concatenate, shape=(32, 2920), dtype=float32, chunksize=(1, 228), chunktype=numpy.ndarray>
+Coordinates:
+  * site     (site) object 256B 'Babbage_100' ... 'LondonArray_100'
+    lat      (site) float64 256B 54.01 58.05 57.3 51.99 ... 53.14 53.5 51.56
+    lon      (site) float64 256B 1.204 -3.112 9.865 ... 0.6005 -3.555 1.388
+  * time     (time) object 23kB 1998-01-01 03:00:00 ... 1999-01-01 00:00:00
+    height   float64 8B 100.0
+    rlon     float64 8B 9.969e+36
+    rlat     float64 8B 9.969e+36
+Attributes:
+    units:         m s-1
+    grid_mapping:  crs
+    cell_methods:  time: point
+Extracting time series...
+Writing: /leonardo/home/userexternal/gluziada/VRE_CORDEX/cordex_vre/output/cordex_cmip6/WS-TS_CORDEX-CMIP6_EC-Earth3-Veg_RegCM5-0_historical_r1i1p1f1_1998-1998_instant_TEMP_NEAREST.csv
+WS extraction complete.
+TEMPORARY OUTPUT: nearest-neighbour horizontal extraction.
+Finished year 1998
+========================================
+Running year 1999
+========================================
+workers: 1 threads: 8 {'inproc://10.137.0.12/18150/4': 8}
+Model: EC-Earth3-Veg_RegCM5-0
+Experiment: historical
+Years: 1999 1999
+Aggregation method: instant
+Building WS dataset from ua/va at 50, 100, 150 m...
+Opening ua50m and va50m
+ua50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199901010100-200001010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199901010100-200001010000.nc
+va50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199901010100-200001010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199901010100-200001010000.nc
+Opening ua100m and va100m
+ua100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199901010100-200001010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199901010100-200001010000.nc
+va100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199901010100-200001010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199901010100-200001010000.nc
+Opening ua150m and va150m
+ua150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199901010100-200001010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199901010100-200001010000.nc
+va150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199901010100-200001010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199901010100-200001010000.nc
+Applying time selection: instant
+<xarray.Dataset> Size: 6GB
+Dimensions:  (height: 3, rlat: 412, rlon: 424, time: 2920)
+Coordinates:
+  * height   (height) float64 24B 50.0 100.0 150.0
+  * rlat     (rlat) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+  * rlon     (rlon) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+    lat      (rlat, rlon) float64 1MB 20.24 20.28 20.32 ... 65.66 65.61 65.55
+    lon      (rlat, rlon) float64 1MB -9.74 -9.643 -9.545 ... 61.18 61.39 61.59
+  * time     (time) object 23kB 1999-01-01 03:00:00 ... 2000-01-01 00:00:00
+Data variables:
+    WS       (height, time, rlat, rlon) float32 6GB dask.array<chunksize=(1, 673, 412, 424), meta=np.ndarray>
+Opening metadata...
+Metadata sites: 32
+Metadata columns: ['sites', 'lat', 'lon', 'elev', 'type', 'location', 'assumed timezone']
+              sites      lat      lon   elev type  location assumed timezone
+0       Babbage_100  53.9630  1.21900  108.0    L  offshore              UTC
+1      Beatrice_100  58.1082 -3.06928  105.5    L  offshore              UTC
+2      Boerglum_100  57.3400  9.81000   31.5    M   coastal            UTC+1
+3        Cabauw_100  51.9700  4.93000  140.0    M      land              UTC
+4  EgmondaanZee_100  52.6064  4.38964  116.0    M  offshore              UTC
+No measurement-height column found. Using 100 m for all sites.
+TEMPORARY WORKAROUND: using nearest grid point from valid 2D lat/lon.
+This avoids broken rlat/rlon coordinates. Regenerate outputs after rlat/rlon are corrected.
+Babbage_100: site=(53.963, 1.219), grid=(54.013, 1.204), iy=268, ix=173, height=100.0 m
+Beatrice_100: site=(58.108, -3.069), grid=(58.045, -3.112), iy=309, ix=161, height=100.0 m
+Boerglum_100: site=(57.340, 9.810), grid=(57.305, 9.865), iy=290, ix=222, height=100.0 m
+Cabauw_100: site=(51.970, 4.930), grid=(51.993, 4.871), iy=246, ix=189, height=100.0 m
+EgmondaanZee_100: site=(52.606, 4.390), grid=(52.603, 4.324), iy=252, ix=187, height=100.0 m
+FINO1_100: site=(54.015, 6.588), grid=(53.947, 6.548), iy=262, ix=201, height=100.0 m
+FINO2_100: site=(55.007, 13.154), grid=(55.038, 13.186), iy=268, ix=237, height=100.0 m
+FINO3_100: site=(55.195, 7.119), grid=(55.225, 7.170), iy=273, ix=206, height=100.0 m
+GreaterGabbard_100: site=(51.873, 1.915), grid=(51.866, 2.004), iy=248, ix=173, height=100.0 m
+HornsRev2_100: site=(55.519, 7.788), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+HornsRevM7_100: site=(55.487, 7.975), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+Hovsore_100: site=(56.441, 8.151), grid=(56.421, 8.249), iy=283, ix=213, height=100.0 m
+Ijmuiden_100: site=(52.848, 3.436), grid=(52.844, 3.508), iy=255, ix=183, height=100.0 m
+Karehamn_100: site=(57.009, 17.006), grid=(56.994, 16.969), iy=285, ix=257, height=100.0 m
+Lillgrund_100: site=(55.500, 12.765), grid=(55.462, 12.749), iy=272, ix=235, height=100.0 m
+Oesterild_100: site=(57.079, 8.869), grid=(57.132, 8.887), iy=289, ix=217, height=100.0 m
+OesterildS_100: site=(57.051, 8.875), grid=(57.022, 8.912), iy=288, ix=217, height=100.0 m
+Omoe_100: site=(55.050, 11.130), grid=(55.051, 11.071), iy=269, ix=226, height=100.0 m
+Risoe_100: site=(55.694, 12.088), grid=(55.656, 12.140), iy=274, ix=232, height=100.0 m
+Ryningsnaas_100: site=(57.276, 15.987), grid=(57.312, 15.949), iy=288, ix=252, height=100.0 m
+Schooner_100: site=(54.050, 2.083), grid=(54.025, 2.156), iy=267, ix=178, height=100.0 m
+Siri_100: site=(56.482, 4.911), grid=(56.460, 4.834), iy=286, ix=196, height=100.0 m
+Soroe_100: site=(55.486, 11.645), grid=(55.519, 11.577), iy=273, ix=229, height=100.0 m
+Taqa_100: site=(52.306, 3.685), grid=(52.304, 3.683), iy=250, ix=183, height=100.0 m
+Tystofte_100: site=(55.240, 11.330), grid=(55.291, 11.418), iy=271, ix=228, height=100.0 m
+Utsira_100: site=(59.303, 4.887), grid=(59.263, 4.925), iy=311, ix=201, height=100.0 m
+Lindenberg_100: site=(52.170, 14.120), grid=(52.208, 14.206), iy=242, ix=241, height=100.0 m
+Hyytiala_100: site=(61.850, 24.290), grid=(61.815, 24.376), iy=330, ix=290, height=100.0 m
+Puijo_100: site=(62.910, 27.650), grid=(62.864, 27.661), iy=341, ix=303, height=100.0 m
+DockingShoal_100: site=(53.160, 0.650), grid=(53.138, 0.600), iy=261, ix=168, height=100.0 m
+GwyntYMor_100: site=(53.480, -3.510), grid=(53.498, -3.555), iy=270, ix=147, height=100.0 m
+LondonArray_100: site=(51.590, 1.390), grid=(51.556, 1.388), iy=246, ix=169, height=100.0 m
+<xarray.DataArray 'Babbage_100' (site: 32, time: 2920)> Size: 374kB
+dask.array<concatenate, shape=(32, 2920), dtype=float32, chunksize=(1, 228), chunktype=numpy.ndarray>
+Coordinates:
+  * site     (site) object 256B 'Babbage_100' ... 'LondonArray_100'
+    lat      (site) float64 256B 54.01 58.05 57.3 51.99 ... 53.14 53.5 51.56
+    lon      (site) float64 256B 1.204 -3.112 9.865 ... 0.6005 -3.555 1.388
+  * time     (time) object 23kB 1999-01-01 03:00:00 ... 2000-01-01 00:00:00
+    height   float64 8B 100.0
+    rlon     float64 8B 9.969e+36
+    rlat     float64 8B 9.969e+36
+Attributes:
+    units:         m s-1
+    grid_mapping:  crs
+    cell_methods:  time: point
+Extracting time series...
+Writing: /leonardo/home/userexternal/gluziada/VRE_CORDEX/cordex_vre/output/cordex_cmip6/WS-TS_CORDEX-CMIP6_EC-Earth3-Veg_RegCM5-0_historical_r1i1p1f1_1999-1999_instant_TEMP_NEAREST.csv
+WS extraction complete.
+TEMPORARY OUTPUT: nearest-neighbour horizontal extraction.
+Finished year 1999
+========================================
+Running year 2000
+========================================
+workers: 1 threads: 8 {'inproc://10.137.0.12/19411/4': 8}
+Model: EC-Earth3-Veg_RegCM5-0
+Experiment: historical
+Years: 2000 2000
+Aggregation method: instant
+Building WS dataset from ua/va at 50, 100, 150 m...
+Opening ua50m and va50m
+ua50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200001010100-200101010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200001010100-200101010000.nc
+va50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200001010100-200101010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200001010100-200101010000.nc
+Opening ua100m and va100m
+ua100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200001010100-200101010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200001010100-200101010000.nc
+va100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200001010100-200101010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200001010100-200101010000.nc
+Opening ua150m and va150m
+ua150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200001010100-200101010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200001010100-200101010000.nc
+va150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200001010100-200101010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200001010100-200101010000.nc
+Applying time selection: instant
+<xarray.Dataset> Size: 6GB
+Dimensions:  (height: 3, rlat: 412, rlon: 424, time: 2928)
+Coordinates:
+  * height   (height) float64 24B 50.0 100.0 150.0
+  * rlat     (rlat) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+  * rlon     (rlon) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+    lat      (rlat, rlon) float64 1MB 20.24 20.28 20.32 ... 65.66 65.61 65.55
+    lon      (rlat, rlon) float64 1MB -9.74 -9.643 -9.545 ... 61.18 61.39 61.59
+  * time     (time) object 23kB 2000-01-01 03:00:00 ... 2001-01-01 00:00:00
+Data variables:
+    WS       (height, time, rlat, rlon) float32 6GB dask.array<chunksize=(1, 675, 412, 424), meta=np.ndarray>
+Opening metadata...
+Metadata sites: 32
+Metadata columns: ['sites', 'lat', 'lon', 'elev', 'type', 'location', 'assumed timezone']
+              sites      lat      lon   elev type  location assumed timezone
+0       Babbage_100  53.9630  1.21900  108.0    L  offshore              UTC
+1      Beatrice_100  58.1082 -3.06928  105.5    L  offshore              UTC
+2      Boerglum_100  57.3400  9.81000   31.5    M   coastal            UTC+1
+3        Cabauw_100  51.9700  4.93000  140.0    M      land              UTC
+4  EgmondaanZee_100  52.6064  4.38964  116.0    M  offshore              UTC
+No measurement-height column found. Using 100 m for all sites.
+TEMPORARY WORKAROUND: using nearest grid point from valid 2D lat/lon.
+This avoids broken rlat/rlon coordinates. Regenerate outputs after rlat/rlon are corrected.
+Babbage_100: site=(53.963, 1.219), grid=(54.013, 1.204), iy=268, ix=173, height=100.0 m
+Beatrice_100: site=(58.108, -3.069), grid=(58.045, -3.112), iy=309, ix=161, height=100.0 m
+Boerglum_100: site=(57.340, 9.810), grid=(57.305, 9.865), iy=290, ix=222, height=100.0 m
+Cabauw_100: site=(51.970, 4.930), grid=(51.993, 4.871), iy=246, ix=189, height=100.0 m
+EgmondaanZee_100: site=(52.606, 4.390), grid=(52.603, 4.324), iy=252, ix=187, height=100.0 m
+FINO1_100: site=(54.015, 6.588), grid=(53.947, 6.548), iy=262, ix=201, height=100.0 m
+FINO2_100: site=(55.007, 13.154), grid=(55.038, 13.186), iy=268, ix=237, height=100.0 m
+FINO3_100: site=(55.195, 7.119), grid=(55.225, 7.170), iy=273, ix=206, height=100.0 m
+GreaterGabbard_100: site=(51.873, 1.915), grid=(51.866, 2.004), iy=248, ix=173, height=100.0 m
+HornsRev2_100: site=(55.519, 7.788), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+HornsRevM7_100: site=(55.487, 7.975), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+Hovsore_100: site=(56.441, 8.151), grid=(56.421, 8.249), iy=283, ix=213, height=100.0 m
+Ijmuiden_100: site=(52.848, 3.436), grid=(52.844, 3.508), iy=255, ix=183, height=100.0 m
+Karehamn_100: site=(57.009, 17.006), grid=(56.994, 16.969), iy=285, ix=257, height=100.0 m
+Lillgrund_100: site=(55.500, 12.765), grid=(55.462, 12.749), iy=272, ix=235, height=100.0 m
+Oesterild_100: site=(57.079, 8.869), grid=(57.132, 8.887), iy=289, ix=217, height=100.0 m
+OesterildS_100: site=(57.051, 8.875), grid=(57.022, 8.912), iy=288, ix=217, height=100.0 m
+Omoe_100: site=(55.050, 11.130), grid=(55.051, 11.071), iy=269, ix=226, height=100.0 m
+Risoe_100: site=(55.694, 12.088), grid=(55.656, 12.140), iy=274, ix=232, height=100.0 m
+Ryningsnaas_100: site=(57.276, 15.987), grid=(57.312, 15.949), iy=288, ix=252, height=100.0 m
+Schooner_100: site=(54.050, 2.083), grid=(54.025, 2.156), iy=267, ix=178, height=100.0 m
+Siri_100: site=(56.482, 4.911), grid=(56.460, 4.834), iy=286, ix=196, height=100.0 m
+Soroe_100: site=(55.486, 11.645), grid=(55.519, 11.577), iy=273, ix=229, height=100.0 m
+Taqa_100: site=(52.306, 3.685), grid=(52.304, 3.683), iy=250, ix=183, height=100.0 m
+Tystofte_100: site=(55.240, 11.330), grid=(55.291, 11.418), iy=271, ix=228, height=100.0 m
+Utsira_100: site=(59.303, 4.887), grid=(59.263, 4.925), iy=311, ix=201, height=100.0 m
+Lindenberg_100: site=(52.170, 14.120), grid=(52.208, 14.206), iy=242, ix=241, height=100.0 m
+Hyytiala_100: site=(61.850, 24.290), grid=(61.815, 24.376), iy=330, ix=290, height=100.0 m
+Puijo_100: site=(62.910, 27.650), grid=(62.864, 27.661), iy=341, ix=303, height=100.0 m
+DockingShoal_100: site=(53.160, 0.650), grid=(53.138, 0.600), iy=261, ix=168, height=100.0 m
+GwyntYMor_100: site=(53.480, -3.510), grid=(53.498, -3.555), iy=270, ix=147, height=100.0 m
+LondonArray_100: site=(51.590, 1.390), grid=(51.556, 1.388), iy=246, ix=169, height=100.0 m
+<xarray.DataArray 'Babbage_100' (site: 32, time: 2928)> Size: 375kB
+dask.array<concatenate, shape=(32, 2928), dtype=float32, chunksize=(1, 228), chunktype=numpy.ndarray>
+Coordinates:
+  * site     (site) object 256B 'Babbage_100' ... 'LondonArray_100'
+    lat      (site) float64 256B 54.01 58.05 57.3 51.99 ... 53.14 53.5 51.56
+    lon      (site) float64 256B 1.204 -3.112 9.865 ... 0.6005 -3.555 1.388
+  * time     (time) object 23kB 2000-01-01 03:00:00 ... 2001-01-01 00:00:00
+    height   float64 8B 100.0
+    rlon     float64 8B 9.969e+36
+    rlat     float64 8B 9.969e+36
+Attributes:
+    units:         m s-1
+    grid_mapping:  crs
+    cell_methods:  time: point
+Extracting time series...
+Writing: /leonardo/home/userexternal/gluziada/VRE_CORDEX/cordex_vre/output/cordex_cmip6/WS-TS_CORDEX-CMIP6_EC-Earth3-Veg_RegCM5-0_historical_r1i1p1f1_2000-2000_instant_TEMP_NEAREST.csv
+WS extraction complete.
+TEMPORARY OUTPUT: nearest-neighbour horizontal extraction.
+Finished year 2000
+========================================
+Running year 2001
+========================================
+workers: 1 threads: 8 {'inproc://10.137.0.12/20927/4': 8}
+Model: EC-Earth3-Veg_RegCM5-0
+Experiment: historical
+Years: 2001 2001
+Aggregation method: instant
+Building WS dataset from ua/va at 50, 100, 150 m...
+Opening ua50m and va50m
+ua50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200101010100-200201010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200101010100-200201010000.nc
+va50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200101010100-200201010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200101010100-200201010000.nc
+Opening ua100m and va100m
+ua100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200101010100-200201010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200101010100-200201010000.nc
+va100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200101010100-200201010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200101010100-200201010000.nc
+Opening ua150m and va150m
+ua150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200101010100-200201010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200101010100-200201010000.nc
+va150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200101010100-200201010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200101010100-200201010000.nc
+Applying time selection: instant
+<xarray.Dataset> Size: 6GB
+Dimensions:  (height: 3, rlat: 412, rlon: 424, time: 2920)
+Coordinates:
+  * height   (height) float64 24B 50.0 100.0 150.0
+  * rlat     (rlat) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+  * rlon     (rlon) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+    lat      (rlat, rlon) float64 1MB 20.24 20.28 20.32 ... 65.66 65.61 65.55
+    lon      (rlat, rlon) float64 1MB -9.74 -9.643 -9.545 ... 61.18 61.39 61.59
+  * time     (time) object 23kB 2001-01-01 03:00:00 ... 2002-01-01 00:00:00
+Data variables:
+    WS       (height, time, rlat, rlon) float32 6GB dask.array<chunksize=(1, 673, 412, 424), meta=np.ndarray>
+Opening metadata...
+Metadata sites: 32
+Metadata columns: ['sites', 'lat', 'lon', 'elev', 'type', 'location', 'assumed timezone']
+              sites      lat      lon   elev type  location assumed timezone
+0       Babbage_100  53.9630  1.21900  108.0    L  offshore              UTC
+1      Beatrice_100  58.1082 -3.06928  105.5    L  offshore              UTC
+2      Boerglum_100  57.3400  9.81000   31.5    M   coastal            UTC+1
+3        Cabauw_100  51.9700  4.93000  140.0    M      land              UTC
+4  EgmondaanZee_100  52.6064  4.38964  116.0    M  offshore              UTC
+No measurement-height column found. Using 100 m for all sites.
+TEMPORARY WORKAROUND: using nearest grid point from valid 2D lat/lon.
+This avoids broken rlat/rlon coordinates. Regenerate outputs after rlat/rlon are corrected.
+Babbage_100: site=(53.963, 1.219), grid=(54.013, 1.204), iy=268, ix=173, height=100.0 m
+Beatrice_100: site=(58.108, -3.069), grid=(58.045, -3.112), iy=309, ix=161, height=100.0 m
+Boerglum_100: site=(57.340, 9.810), grid=(57.305, 9.865), iy=290, ix=222, height=100.0 m
+Cabauw_100: site=(51.970, 4.930), grid=(51.993, 4.871), iy=246, ix=189, height=100.0 m
+EgmondaanZee_100: site=(52.606, 4.390), grid=(52.603, 4.324), iy=252, ix=187, height=100.0 m
+FINO1_100: site=(54.015, 6.588), grid=(53.947, 6.548), iy=262, ix=201, height=100.0 m
+FINO2_100: site=(55.007, 13.154), grid=(55.038, 13.186), iy=268, ix=237, height=100.0 m
+FINO3_100: site=(55.195, 7.119), grid=(55.225, 7.170), iy=273, ix=206, height=100.0 m
+GreaterGabbard_100: site=(51.873, 1.915), grid=(51.866, 2.004), iy=248, ix=173, height=100.0 m
+HornsRev2_100: site=(55.519, 7.788), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+HornsRevM7_100: site=(55.487, 7.975), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+Hovsore_100: site=(56.441, 8.151), grid=(56.421, 8.249), iy=283, ix=213, height=100.0 m
+Ijmuiden_100: site=(52.848, 3.436), grid=(52.844, 3.508), iy=255, ix=183, height=100.0 m
+Karehamn_100: site=(57.009, 17.006), grid=(56.994, 16.969), iy=285, ix=257, height=100.0 m
+Lillgrund_100: site=(55.500, 12.765), grid=(55.462, 12.749), iy=272, ix=235, height=100.0 m
+Oesterild_100: site=(57.079, 8.869), grid=(57.132, 8.887), iy=289, ix=217, height=100.0 m
+OesterildS_100: site=(57.051, 8.875), grid=(57.022, 8.912), iy=288, ix=217, height=100.0 m
+Omoe_100: site=(55.050, 11.130), grid=(55.051, 11.071), iy=269, ix=226, height=100.0 m
+Risoe_100: site=(55.694, 12.088), grid=(55.656, 12.140), iy=274, ix=232, height=100.0 m
+Ryningsnaas_100: site=(57.276, 15.987), grid=(57.312, 15.949), iy=288, ix=252, height=100.0 m
+Schooner_100: site=(54.050, 2.083), grid=(54.025, 2.156), iy=267, ix=178, height=100.0 m
+Siri_100: site=(56.482, 4.911), grid=(56.460, 4.834), iy=286, ix=196, height=100.0 m
+Soroe_100: site=(55.486, 11.645), grid=(55.519, 11.577), iy=273, ix=229, height=100.0 m
+Taqa_100: site=(52.306, 3.685), grid=(52.304, 3.683), iy=250, ix=183, height=100.0 m
+Tystofte_100: site=(55.240, 11.330), grid=(55.291, 11.418), iy=271, ix=228, height=100.0 m
+Utsira_100: site=(59.303, 4.887), grid=(59.263, 4.925), iy=311, ix=201, height=100.0 m
+Lindenberg_100: site=(52.170, 14.120), grid=(52.208, 14.206), iy=242, ix=241, height=100.0 m
+Hyytiala_100: site=(61.850, 24.290), grid=(61.815, 24.376), iy=330, ix=290, height=100.0 m
+Puijo_100: site=(62.910, 27.650), grid=(62.864, 27.661), iy=341, ix=303, height=100.0 m
+DockingShoal_100: site=(53.160, 0.650), grid=(53.138, 0.600), iy=261, ix=168, height=100.0 m
+GwyntYMor_100: site=(53.480, -3.510), grid=(53.498, -3.555), iy=270, ix=147, height=100.0 m
+LondonArray_100: site=(51.590, 1.390), grid=(51.556, 1.388), iy=246, ix=169, height=100.0 m
+<xarray.DataArray 'Babbage_100' (site: 32, time: 2920)> Size: 374kB
+dask.array<concatenate, shape=(32, 2920), dtype=float32, chunksize=(1, 228), chunktype=numpy.ndarray>
+Coordinates:
+  * site     (site) object 256B 'Babbage_100' ... 'LondonArray_100'
+    lat      (site) float64 256B 54.01 58.05 57.3 51.99 ... 53.14 53.5 51.56
+    lon      (site) float64 256B 1.204 -3.112 9.865 ... 0.6005 -3.555 1.388
+  * time     (time) object 23kB 2001-01-01 03:00:00 ... 2002-01-01 00:00:00
+    height   float64 8B 100.0
+    rlon     float64 8B 9.969e+36
+    rlat     float64 8B 9.969e+36
+Attributes:
+    units:         m s-1
+    grid_mapping:  crs
+    cell_methods:  time: point
+Extracting time series...
+Writing: /leonardo/home/userexternal/gluziada/VRE_CORDEX/cordex_vre/output/cordex_cmip6/WS-TS_CORDEX-CMIP6_EC-Earth3-Veg_RegCM5-0_historical_r1i1p1f1_2001-2001_instant_TEMP_NEAREST.csv
+WS extraction complete.
+TEMPORARY OUTPUT: nearest-neighbour horizontal extraction.
+Finished year 2001
+========================================
+Running year 2002
+========================================
+workers: 1 threads: 8 {'inproc://10.137.0.12/21977/4': 8}
+Model: EC-Earth3-Veg_RegCM5-0
+Experiment: historical
+Years: 2002 2002
+Aggregation method: instant
+Building WS dataset from ua/va at 50, 100, 150 m...
+Opening ua50m and va50m
+ua50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200201010100-200301010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200201010100-200301010000.nc
+va50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200201010100-200301010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200201010100-200301010000.nc
+Opening ua100m and va100m
+ua100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200201010100-200301010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200201010100-200301010000.nc
+va100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200201010100-200301010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200201010100-200301010000.nc
+Opening ua150m and va150m
+ua150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200201010100-200301010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200201010100-200301010000.nc
+va150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200201010100-200301010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200201010100-200301010000.nc
+Applying time selection: instant
+<xarray.Dataset> Size: 6GB
+Dimensions:  (height: 3, rlat: 412, rlon: 424, time: 2920)
+Coordinates:
+  * height   (height) float64 24B 50.0 100.0 150.0
+  * rlat     (rlat) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+  * rlon     (rlon) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+    lat      (rlat, rlon) float64 1MB 20.24 20.28 20.32 ... 65.66 65.61 65.55
+    lon      (rlat, rlon) float64 1MB -9.74 -9.643 -9.545 ... 61.18 61.39 61.59
+  * time     (time) object 23kB 2002-01-01 03:00:00 ... 2003-01-01 00:00:00
+Data variables:
+    WS       (height, time, rlat, rlon) float32 6GB dask.array<chunksize=(1, 673, 412, 424), meta=np.ndarray>
+Opening metadata...
+Metadata sites: 32
+Metadata columns: ['sites', 'lat', 'lon', 'elev', 'type', 'location', 'assumed timezone']
+              sites      lat      lon   elev type  location assumed timezone
+0       Babbage_100  53.9630  1.21900  108.0    L  offshore              UTC
+1      Beatrice_100  58.1082 -3.06928  105.5    L  offshore              UTC
+2      Boerglum_100  57.3400  9.81000   31.5    M   coastal            UTC+1
+3        Cabauw_100  51.9700  4.93000  140.0    M      land              UTC
+4  EgmondaanZee_100  52.6064  4.38964  116.0    M  offshore              UTC
+No measurement-height column found. Using 100 m for all sites.
+TEMPORARY WORKAROUND: using nearest grid point from valid 2D lat/lon.
+This avoids broken rlat/rlon coordinates. Regenerate outputs after rlat/rlon are corrected.
+Babbage_100: site=(53.963, 1.219), grid=(54.013, 1.204), iy=268, ix=173, height=100.0 m
+Beatrice_100: site=(58.108, -3.069), grid=(58.045, -3.112), iy=309, ix=161, height=100.0 m
+Boerglum_100: site=(57.340, 9.810), grid=(57.305, 9.865), iy=290, ix=222, height=100.0 m
+Cabauw_100: site=(51.970, 4.930), grid=(51.993, 4.871), iy=246, ix=189, height=100.0 m
+EgmondaanZee_100: site=(52.606, 4.390), grid=(52.603, 4.324), iy=252, ix=187, height=100.0 m
+FINO1_100: site=(54.015, 6.588), grid=(53.947, 6.548), iy=262, ix=201, height=100.0 m
+FINO2_100: site=(55.007, 13.154), grid=(55.038, 13.186), iy=268, ix=237, height=100.0 m
+FINO3_100: site=(55.195, 7.119), grid=(55.225, 7.170), iy=273, ix=206, height=100.0 m
+GreaterGabbard_100: site=(51.873, 1.915), grid=(51.866, 2.004), iy=248, ix=173, height=100.0 m
+HornsRev2_100: site=(55.519, 7.788), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+HornsRevM7_100: site=(55.487, 7.975), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+Hovsore_100: site=(56.441, 8.151), grid=(56.421, 8.249), iy=283, ix=213, height=100.0 m
+Ijmuiden_100: site=(52.848, 3.436), grid=(52.844, 3.508), iy=255, ix=183, height=100.0 m
+Karehamn_100: site=(57.009, 17.006), grid=(56.994, 16.969), iy=285, ix=257, height=100.0 m
+Lillgrund_100: site=(55.500, 12.765), grid=(55.462, 12.749), iy=272, ix=235, height=100.0 m
+Oesterild_100: site=(57.079, 8.869), grid=(57.132, 8.887), iy=289, ix=217, height=100.0 m
+OesterildS_100: site=(57.051, 8.875), grid=(57.022, 8.912), iy=288, ix=217, height=100.0 m
+Omoe_100: site=(55.050, 11.130), grid=(55.051, 11.071), iy=269, ix=226, height=100.0 m
+Risoe_100: site=(55.694, 12.088), grid=(55.656, 12.140), iy=274, ix=232, height=100.0 m
+Ryningsnaas_100: site=(57.276, 15.987), grid=(57.312, 15.949), iy=288, ix=252, height=100.0 m
+Schooner_100: site=(54.050, 2.083), grid=(54.025, 2.156), iy=267, ix=178, height=100.0 m
+Siri_100: site=(56.482, 4.911), grid=(56.460, 4.834), iy=286, ix=196, height=100.0 m
+Soroe_100: site=(55.486, 11.645), grid=(55.519, 11.577), iy=273, ix=229, height=100.0 m
+Taqa_100: site=(52.306, 3.685), grid=(52.304, 3.683), iy=250, ix=183, height=100.0 m
+Tystofte_100: site=(55.240, 11.330), grid=(55.291, 11.418), iy=271, ix=228, height=100.0 m
+Utsira_100: site=(59.303, 4.887), grid=(59.263, 4.925), iy=311, ix=201, height=100.0 m
+Lindenberg_100: site=(52.170, 14.120), grid=(52.208, 14.206), iy=242, ix=241, height=100.0 m
+Hyytiala_100: site=(61.850, 24.290), grid=(61.815, 24.376), iy=330, ix=290, height=100.0 m
+Puijo_100: site=(62.910, 27.650), grid=(62.864, 27.661), iy=341, ix=303, height=100.0 m
+DockingShoal_100: site=(53.160, 0.650), grid=(53.138, 0.600), iy=261, ix=168, height=100.0 m
+GwyntYMor_100: site=(53.480, -3.510), grid=(53.498, -3.555), iy=270, ix=147, height=100.0 m
+LondonArray_100: site=(51.590, 1.390), grid=(51.556, 1.388), iy=246, ix=169, height=100.0 m
+<xarray.DataArray 'Babbage_100' (site: 32, time: 2920)> Size: 374kB
+dask.array<concatenate, shape=(32, 2920), dtype=float32, chunksize=(1, 228), chunktype=numpy.ndarray>
+Coordinates:
+  * site     (site) object 256B 'Babbage_100' ... 'LondonArray_100'
+    lat      (site) float64 256B 54.01 58.05 57.3 51.99 ... 53.14 53.5 51.56
+    lon      (site) float64 256B 1.204 -3.112 9.865 ... 0.6005 -3.555 1.388
+  * time     (time) object 23kB 2002-01-01 03:00:00 ... 2003-01-01 00:00:00
+    height   float64 8B 100.0
+    rlon     float64 8B 9.969e+36
+    rlat     float64 8B 9.969e+36
+Attributes:
+    units:         m s-1
+    grid_mapping:  crs
+    cell_methods:  time: point
+Extracting time series...
+Writing: /leonardo/home/userexternal/gluziada/VRE_CORDEX/cordex_vre/output/cordex_cmip6/WS-TS_CORDEX-CMIP6_EC-Earth3-Veg_RegCM5-0_historical_r1i1p1f1_2002-2002_instant_TEMP_NEAREST.csv
+WS extraction complete.
+TEMPORARY OUTPUT: nearest-neighbour horizontal extraction.
+Finished year 2002
+========================================
+Running year 2003
+========================================
+workers: 1 threads: 8 {'inproc://10.137.0.12/22239/4': 8}
+Model: EC-Earth3-Veg_RegCM5-0
+Experiment: historical
+Years: 2003 2003
+Aggregation method: instant
+Building WS dataset from ua/va at 50, 100, 150 m...
+Opening ua50m and va50m
+ua50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200301010100-200401010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200301010100-200401010000.nc
+va50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200301010100-200401010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200301010100-200401010000.nc
+Opening ua100m and va100m
+ua100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200301010100-200401010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200301010100-200401010000.nc
+va100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200301010100-200401010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200301010100-200401010000.nc
+Opening ua150m and va150m
+ua150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200301010100-200401010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200301010100-200401010000.nc
+va150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200301010100-200401010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200301010100-200401010000.nc
+Applying time selection: instant
+<xarray.Dataset> Size: 6GB
+Dimensions:  (height: 3, rlat: 412, rlon: 424, time: 2920)
+Coordinates:
+  * height   (height) float64 24B 50.0 100.0 150.0
+  * rlat     (rlat) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+  * rlon     (rlon) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+    lat      (rlat, rlon) float64 1MB 20.24 20.28 20.32 ... 65.66 65.61 65.55
+    lon      (rlat, rlon) float64 1MB -9.74 -9.643 -9.545 ... 61.18 61.39 61.59
+  * time     (time) object 23kB 2003-01-01 03:00:00 ... 2004-01-01 00:00:00
+Data variables:
+    WS       (height, time, rlat, rlon) float32 6GB dask.array<chunksize=(1, 673, 412, 424), meta=np.ndarray>
+Opening metadata...
+Metadata sites: 32
+Metadata columns: ['sites', 'lat', 'lon', 'elev', 'type', 'location', 'assumed timezone']
+              sites      lat      lon   elev type  location assumed timezone
+0       Babbage_100  53.9630  1.21900  108.0    L  offshore              UTC
+1      Beatrice_100  58.1082 -3.06928  105.5    L  offshore              UTC
+2      Boerglum_100  57.3400  9.81000   31.5    M   coastal            UTC+1
+3        Cabauw_100  51.9700  4.93000  140.0    M      land              UTC
+4  EgmondaanZee_100  52.6064  4.38964  116.0    M  offshore              UTC
+No measurement-height column found. Using 100 m for all sites.
+TEMPORARY WORKAROUND: using nearest grid point from valid 2D lat/lon.
+This avoids broken rlat/rlon coordinates. Regenerate outputs after rlat/rlon are corrected.
+Babbage_100: site=(53.963, 1.219), grid=(54.013, 1.204), iy=268, ix=173, height=100.0 m
+Beatrice_100: site=(58.108, -3.069), grid=(58.045, -3.112), iy=309, ix=161, height=100.0 m
+Boerglum_100: site=(57.340, 9.810), grid=(57.305, 9.865), iy=290, ix=222, height=100.0 m
+Cabauw_100: site=(51.970, 4.930), grid=(51.993, 4.871), iy=246, ix=189, height=100.0 m
+EgmondaanZee_100: site=(52.606, 4.390), grid=(52.603, 4.324), iy=252, ix=187, height=100.0 m
+FINO1_100: site=(54.015, 6.588), grid=(53.947, 6.548), iy=262, ix=201, height=100.0 m
+FINO2_100: site=(55.007, 13.154), grid=(55.038, 13.186), iy=268, ix=237, height=100.0 m
+FINO3_100: site=(55.195, 7.119), grid=(55.225, 7.170), iy=273, ix=206, height=100.0 m
+GreaterGabbard_100: site=(51.873, 1.915), grid=(51.866, 2.004), iy=248, ix=173, height=100.0 m
+HornsRev2_100: site=(55.519, 7.788), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+HornsRevM7_100: site=(55.487, 7.975), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+Hovsore_100: site=(56.441, 8.151), grid=(56.421, 8.249), iy=283, ix=213, height=100.0 m
+Ijmuiden_100: site=(52.848, 3.436), grid=(52.844, 3.508), iy=255, ix=183, height=100.0 m
+Karehamn_100: site=(57.009, 17.006), grid=(56.994, 16.969), iy=285, ix=257, height=100.0 m
+Lillgrund_100: site=(55.500, 12.765), grid=(55.462, 12.749), iy=272, ix=235, height=100.0 m
+Oesterild_100: site=(57.079, 8.869), grid=(57.132, 8.887), iy=289, ix=217, height=100.0 m
+OesterildS_100: site=(57.051, 8.875), grid=(57.022, 8.912), iy=288, ix=217, height=100.0 m
+Omoe_100: site=(55.050, 11.130), grid=(55.051, 11.071), iy=269, ix=226, height=100.0 m
+Risoe_100: site=(55.694, 12.088), grid=(55.656, 12.140), iy=274, ix=232, height=100.0 m
+Ryningsnaas_100: site=(57.276, 15.987), grid=(57.312, 15.949), iy=288, ix=252, height=100.0 m
+Schooner_100: site=(54.050, 2.083), grid=(54.025, 2.156), iy=267, ix=178, height=100.0 m
+Siri_100: site=(56.482, 4.911), grid=(56.460, 4.834), iy=286, ix=196, height=100.0 m
+Soroe_100: site=(55.486, 11.645), grid=(55.519, 11.577), iy=273, ix=229, height=100.0 m
+Taqa_100: site=(52.306, 3.685), grid=(52.304, 3.683), iy=250, ix=183, height=100.0 m
+Tystofte_100: site=(55.240, 11.330), grid=(55.291, 11.418), iy=271, ix=228, height=100.0 m
+Utsira_100: site=(59.303, 4.887), grid=(59.263, 4.925), iy=311, ix=201, height=100.0 m
+Lindenberg_100: site=(52.170, 14.120), grid=(52.208, 14.206), iy=242, ix=241, height=100.0 m
+Hyytiala_100: site=(61.850, 24.290), grid=(61.815, 24.376), iy=330, ix=290, height=100.0 m
+Puijo_100: site=(62.910, 27.650), grid=(62.864, 27.661), iy=341, ix=303, height=100.0 m
+DockingShoal_100: site=(53.160, 0.650), grid=(53.138, 0.600), iy=261, ix=168, height=100.0 m
+GwyntYMor_100: site=(53.480, -3.510), grid=(53.498, -3.555), iy=270, ix=147, height=100.0 m
+LondonArray_100: site=(51.590, 1.390), grid=(51.556, 1.388), iy=246, ix=169, height=100.0 m
+<xarray.DataArray 'Babbage_100' (site: 32, time: 2920)> Size: 374kB
+dask.array<concatenate, shape=(32, 2920), dtype=float32, chunksize=(1, 228), chunktype=numpy.ndarray>
+Coordinates:
+  * site     (site) object 256B 'Babbage_100' ... 'LondonArray_100'
+    lat      (site) float64 256B 54.01 58.05 57.3 51.99 ... 53.14 53.5 51.56
+    lon      (site) float64 256B 1.204 -3.112 9.865 ... 0.6005 -3.555 1.388
+  * time     (time) object 23kB 2003-01-01 03:00:00 ... 2004-01-01 00:00:00
+    height   float64 8B 100.0
+    rlon     float64 8B 9.969e+36
+    rlat     float64 8B 9.969e+36
+Attributes:
+    units:         m s-1
+    grid_mapping:  crs
+    cell_methods:  time: point
+Extracting time series...
+Writing: /leonardo/home/userexternal/gluziada/VRE_CORDEX/cordex_vre/output/cordex_cmip6/WS-TS_CORDEX-CMIP6_EC-Earth3-Veg_RegCM5-0_historical_r1i1p1f1_2003-2003_instant_TEMP_NEAREST.csv
+WS extraction complete.
+TEMPORARY OUTPUT: nearest-neighbour horizontal extraction.
+Finished year 2003
+========================================
+Running year 2004
+========================================
+workers: 1 threads: 8 {'inproc://10.137.0.12/22820/4': 8}
+Model: EC-Earth3-Veg_RegCM5-0
+Experiment: historical
+Years: 2004 2004
+Aggregation method: instant
+Building WS dataset from ua/va at 50, 100, 150 m...
+Opening ua50m and va50m
+ua50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200401010100-200501010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200401010100-200501010000.nc
+va50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200401010100-200501010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200401010100-200501010000.nc
+Opening ua100m and va100m
+ua100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200401010100-200501010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200401010100-200501010000.nc
+va100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200401010100-200501010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200401010100-200501010000.nc
+Opening ua150m and va150m
+ua150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200401010100-200501010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200401010100-200501010000.nc
+va150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200401010100-200501010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200401010100-200501010000.nc
+Applying time selection: instant
+<xarray.Dataset> Size: 6GB
+Dimensions:  (height: 3, rlat: 412, rlon: 424, time: 2928)
+Coordinates:
+  * height   (height) float64 24B 50.0 100.0 150.0
+  * rlat     (rlat) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+  * rlon     (rlon) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+    lat      (rlat, rlon) float64 1MB 20.24 20.28 20.32 ... 65.66 65.61 65.55
+    lon      (rlat, rlon) float64 1MB -9.74 -9.643 -9.545 ... 61.18 61.39 61.59
+  * time     (time) object 23kB 2004-01-01 03:00:00 ... 2005-01-01 00:00:00
+Data variables:
+    WS       (height, time, rlat, rlon) float32 6GB dask.array<chunksize=(1, 675, 412, 424), meta=np.ndarray>
+Opening metadata...
+Metadata sites: 32
+Metadata columns: ['sites', 'lat', 'lon', 'elev', 'type', 'location', 'assumed timezone']
+              sites      lat      lon   elev type  location assumed timezone
+0       Babbage_100  53.9630  1.21900  108.0    L  offshore              UTC
+1      Beatrice_100  58.1082 -3.06928  105.5    L  offshore              UTC
+2      Boerglum_100  57.3400  9.81000   31.5    M   coastal            UTC+1
+3        Cabauw_100  51.9700  4.93000  140.0    M      land              UTC
+4  EgmondaanZee_100  52.6064  4.38964  116.0    M  offshore              UTC
+No measurement-height column found. Using 100 m for all sites.
+TEMPORARY WORKAROUND: using nearest grid point from valid 2D lat/lon.
+This avoids broken rlat/rlon coordinates. Regenerate outputs after rlat/rlon are corrected.
+Babbage_100: site=(53.963, 1.219), grid=(54.013, 1.204), iy=268, ix=173, height=100.0 m
+Beatrice_100: site=(58.108, -3.069), grid=(58.045, -3.112), iy=309, ix=161, height=100.0 m
+Boerglum_100: site=(57.340, 9.810), grid=(57.305, 9.865), iy=290, ix=222, height=100.0 m
+Cabauw_100: site=(51.970, 4.930), grid=(51.993, 4.871), iy=246, ix=189, height=100.0 m
+EgmondaanZee_100: site=(52.606, 4.390), grid=(52.603, 4.324), iy=252, ix=187, height=100.0 m
+FINO1_100: site=(54.015, 6.588), grid=(53.947, 6.548), iy=262, ix=201, height=100.0 m
+FINO2_100: site=(55.007, 13.154), grid=(55.038, 13.186), iy=268, ix=237, height=100.0 m
+FINO3_100: site=(55.195, 7.119), grid=(55.225, 7.170), iy=273, ix=206, height=100.0 m
+GreaterGabbard_100: site=(51.873, 1.915), grid=(51.866, 2.004), iy=248, ix=173, height=100.0 m
+HornsRev2_100: site=(55.519, 7.788), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+HornsRevM7_100: site=(55.487, 7.975), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+Hovsore_100: site=(56.441, 8.151), grid=(56.421, 8.249), iy=283, ix=213, height=100.0 m
+Ijmuiden_100: site=(52.848, 3.436), grid=(52.844, 3.508), iy=255, ix=183, height=100.0 m
+Karehamn_100: site=(57.009, 17.006), grid=(56.994, 16.969), iy=285, ix=257, height=100.0 m
+Lillgrund_100: site=(55.500, 12.765), grid=(55.462, 12.749), iy=272, ix=235, height=100.0 m
+Oesterild_100: site=(57.079, 8.869), grid=(57.132, 8.887), iy=289, ix=217, height=100.0 m
+OesterildS_100: site=(57.051, 8.875), grid=(57.022, 8.912), iy=288, ix=217, height=100.0 m
+Omoe_100: site=(55.050, 11.130), grid=(55.051, 11.071), iy=269, ix=226, height=100.0 m
+Risoe_100: site=(55.694, 12.088), grid=(55.656, 12.140), iy=274, ix=232, height=100.0 m
+Ryningsnaas_100: site=(57.276, 15.987), grid=(57.312, 15.949), iy=288, ix=252, height=100.0 m
+Schooner_100: site=(54.050, 2.083), grid=(54.025, 2.156), iy=267, ix=178, height=100.0 m
+Siri_100: site=(56.482, 4.911), grid=(56.460, 4.834), iy=286, ix=196, height=100.0 m
+Soroe_100: site=(55.486, 11.645), grid=(55.519, 11.577), iy=273, ix=229, height=100.0 m
+Taqa_100: site=(52.306, 3.685), grid=(52.304, 3.683), iy=250, ix=183, height=100.0 m
+Tystofte_100: site=(55.240, 11.330), grid=(55.291, 11.418), iy=271, ix=228, height=100.0 m
+Utsira_100: site=(59.303, 4.887), grid=(59.263, 4.925), iy=311, ix=201, height=100.0 m
+Lindenberg_100: site=(52.170, 14.120), grid=(52.208, 14.206), iy=242, ix=241, height=100.0 m
+Hyytiala_100: site=(61.850, 24.290), grid=(61.815, 24.376), iy=330, ix=290, height=100.0 m
+Puijo_100: site=(62.910, 27.650), grid=(62.864, 27.661), iy=341, ix=303, height=100.0 m
+DockingShoal_100: site=(53.160, 0.650), grid=(53.138, 0.600), iy=261, ix=168, height=100.0 m
+GwyntYMor_100: site=(53.480, -3.510), grid=(53.498, -3.555), iy=270, ix=147, height=100.0 m
+LondonArray_100: site=(51.590, 1.390), grid=(51.556, 1.388), iy=246, ix=169, height=100.0 m
+<xarray.DataArray 'Babbage_100' (site: 32, time: 2928)> Size: 375kB
+dask.array<concatenate, shape=(32, 2928), dtype=float32, chunksize=(1, 228), chunktype=numpy.ndarray>
+Coordinates:
+  * site     (site) object 256B 'Babbage_100' ... 'LondonArray_100'
+    lat      (site) float64 256B 54.01 58.05 57.3 51.99 ... 53.14 53.5 51.56
+    lon      (site) float64 256B 1.204 -3.112 9.865 ... 0.6005 -3.555 1.388
+  * time     (time) object 23kB 2004-01-01 03:00:00 ... 2005-01-01 00:00:00
+    height   float64 8B 100.0
+    rlon     float64 8B 9.969e+36
+    rlat     float64 8B 9.969e+36
+Attributes:
+    units:         m s-1
+    grid_mapping:  crs
+    cell_methods:  time: point
+Extracting time series...
+Writing: /leonardo/home/userexternal/gluziada/VRE_CORDEX/cordex_vre/output/cordex_cmip6/WS-TS_CORDEX-CMIP6_EC-Earth3-Veg_RegCM5-0_historical_r1i1p1f1_2004-2004_instant_TEMP_NEAREST.csv
+WS extraction complete.
+TEMPORARY OUTPUT: nearest-neighbour horizontal extraction.
+Finished year 2004
+========================================
+Running year 2005
+========================================
+workers: 1 threads: 8 {'inproc://10.137.0.12/23302/4': 8}
+Model: EC-Earth3-Veg_RegCM5-0
+Experiment: historical
+Years: 2005 2005
+Aggregation method: instant
+Building WS dataset from ua/va at 50, 100, 150 m...
+Opening ua50m and va50m
+ua50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200501010100-200601010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200501010100-200601010000.nc
+va50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200501010100-200601010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200501010100-200601010000.nc
+Opening ua100m and va100m
+ua100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200501010100-200601010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200501010100-200601010000.nc
+va100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200501010100-200601010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200501010100-200601010000.nc
+Opening ua150m and va150m
+ua150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200501010100-200601010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200501010100-200601010000.nc
+va150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200501010100-200601010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200501010100-200601010000.nc
+Applying time selection: instant
+<xarray.Dataset> Size: 6GB
+Dimensions:  (height: 3, rlat: 412, rlon: 424, time: 2920)
+Coordinates:
+  * height   (height) float64 24B 50.0 100.0 150.0
+  * rlat     (rlat) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+  * rlon     (rlon) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+    lat      (rlat, rlon) float64 1MB 20.24 20.28 20.32 ... 65.66 65.61 65.55
+    lon      (rlat, rlon) float64 1MB -9.74 -9.643 -9.545 ... 61.18 61.39 61.59
+  * time     (time) object 23kB 2005-01-01 03:00:00 ... 2006-01-01 00:00:00
+Data variables:
+    WS       (height, time, rlat, rlon) float32 6GB dask.array<chunksize=(1, 673, 412, 424), meta=np.ndarray>
+Opening metadata...
+Metadata sites: 32
+Metadata columns: ['sites', 'lat', 'lon', 'elev', 'type', 'location', 'assumed timezone']
+              sites      lat      lon   elev type  location assumed timezone
+0       Babbage_100  53.9630  1.21900  108.0    L  offshore              UTC
+1      Beatrice_100  58.1082 -3.06928  105.5    L  offshore              UTC
+2      Boerglum_100  57.3400  9.81000   31.5    M   coastal            UTC+1
+3        Cabauw_100  51.9700  4.93000  140.0    M      land              UTC
+4  EgmondaanZee_100  52.6064  4.38964  116.0    M  offshore              UTC
+No measurement-height column found. Using 100 m for all sites.
+TEMPORARY WORKAROUND: using nearest grid point from valid 2D lat/lon.
+This avoids broken rlat/rlon coordinates. Regenerate outputs after rlat/rlon are corrected.
+Babbage_100: site=(53.963, 1.219), grid=(54.013, 1.204), iy=268, ix=173, height=100.0 m
+Beatrice_100: site=(58.108, -3.069), grid=(58.045, -3.112), iy=309, ix=161, height=100.0 m
+Boerglum_100: site=(57.340, 9.810), grid=(57.305, 9.865), iy=290, ix=222, height=100.0 m
+Cabauw_100: site=(51.970, 4.930), grid=(51.993, 4.871), iy=246, ix=189, height=100.0 m
+EgmondaanZee_100: site=(52.606, 4.390), grid=(52.603, 4.324), iy=252, ix=187, height=100.0 m
+FINO1_100: site=(54.015, 6.588), grid=(53.947, 6.548), iy=262, ix=201, height=100.0 m
+FINO2_100: site=(55.007, 13.154), grid=(55.038, 13.186), iy=268, ix=237, height=100.0 m
+FINO3_100: site=(55.195, 7.119), grid=(55.225, 7.170), iy=273, ix=206, height=100.0 m
+GreaterGabbard_100: site=(51.873, 1.915), grid=(51.866, 2.004), iy=248, ix=173, height=100.0 m
+HornsRev2_100: site=(55.519, 7.788), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+HornsRevM7_100: site=(55.487, 7.975), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+Hovsore_100: site=(56.441, 8.151), grid=(56.421, 8.249), iy=283, ix=213, height=100.0 m
+Ijmuiden_100: site=(52.848, 3.436), grid=(52.844, 3.508), iy=255, ix=183, height=100.0 m
+Karehamn_100: site=(57.009, 17.006), grid=(56.994, 16.969), iy=285, ix=257, height=100.0 m
+Lillgrund_100: site=(55.500, 12.765), grid=(55.462, 12.749), iy=272, ix=235, height=100.0 m
+Oesterild_100: site=(57.079, 8.869), grid=(57.132, 8.887), iy=289, ix=217, height=100.0 m
+OesterildS_100: site=(57.051, 8.875), grid=(57.022, 8.912), iy=288, ix=217, height=100.0 m
+Omoe_100: site=(55.050, 11.130), grid=(55.051, 11.071), iy=269, ix=226, height=100.0 m
+Risoe_100: site=(55.694, 12.088), grid=(55.656, 12.140), iy=274, ix=232, height=100.0 m
+Ryningsnaas_100: site=(57.276, 15.987), grid=(57.312, 15.949), iy=288, ix=252, height=100.0 m
+Schooner_100: site=(54.050, 2.083), grid=(54.025, 2.156), iy=267, ix=178, height=100.0 m
+Siri_100: site=(56.482, 4.911), grid=(56.460, 4.834), iy=286, ix=196, height=100.0 m
+Soroe_100: site=(55.486, 11.645), grid=(55.519, 11.577), iy=273, ix=229, height=100.0 m
+Taqa_100: site=(52.306, 3.685), grid=(52.304, 3.683), iy=250, ix=183, height=100.0 m
+Tystofte_100: site=(55.240, 11.330), grid=(55.291, 11.418), iy=271, ix=228, height=100.0 m
+Utsira_100: site=(59.303, 4.887), grid=(59.263, 4.925), iy=311, ix=201, height=100.0 m
+Lindenberg_100: site=(52.170, 14.120), grid=(52.208, 14.206), iy=242, ix=241, height=100.0 m
+Hyytiala_100: site=(61.850, 24.290), grid=(61.815, 24.376), iy=330, ix=290, height=100.0 m
+Puijo_100: site=(62.910, 27.650), grid=(62.864, 27.661), iy=341, ix=303, height=100.0 m
+DockingShoal_100: site=(53.160, 0.650), grid=(53.138, 0.600), iy=261, ix=168, height=100.0 m
+GwyntYMor_100: site=(53.480, -3.510), grid=(53.498, -3.555), iy=270, ix=147, height=100.0 m
+LondonArray_100: site=(51.590, 1.390), grid=(51.556, 1.388), iy=246, ix=169, height=100.0 m
+<xarray.DataArray 'Babbage_100' (site: 32, time: 2920)> Size: 374kB
+dask.array<concatenate, shape=(32, 2920), dtype=float32, chunksize=(1, 228), chunktype=numpy.ndarray>
+Coordinates:
+  * site     (site) object 256B 'Babbage_100' ... 'LondonArray_100'
+    lat      (site) float64 256B 54.01 58.05 57.3 51.99 ... 53.14 53.5 51.56
+    lon      (site) float64 256B 1.204 -3.112 9.865 ... 0.6005 -3.555 1.388
+  * time     (time) object 23kB 2005-01-01 03:00:00 ... 2006-01-01 00:00:00
+    height   float64 8B 100.0
+    rlon     float64 8B 9.969e+36
+    rlat     float64 8B 9.969e+36
+Attributes:
+    units:         m s-1
+    grid_mapping:  crs
+    cell_methods:  time: point
+Extracting time series...
+Writing: /leonardo/home/userexternal/gluziada/VRE_CORDEX/cordex_vre/output/cordex_cmip6/WS-TS_CORDEX-CMIP6_EC-Earth3-Veg_RegCM5-0_historical_r1i1p1f1_2005-2005_instant_TEMP_NEAREST.csv
+WS extraction complete.
+TEMPORARY OUTPUT: nearest-neighbour horizontal extraction.
+Finished year 2005
+========================================
+Running year 2006
+========================================
+workers: 1 threads: 8 {'inproc://10.137.0.12/23665/4': 8}
+Model: EC-Earth3-Veg_RegCM5-0
+Experiment: historical
+Years: 2006 2006
+Aggregation method: instant
+Building WS dataset from ua/va at 50, 100, 150 m...
+Opening ua50m and va50m
+ua50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200601010100-200701010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200601010100-200701010000.nc
+va50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200601010100-200701010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200601010100-200701010000.nc
+Opening ua100m and va100m
+ua100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200601010100-200701010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200601010100-200701010000.nc
+va100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200601010100-200701010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200601010100-200701010000.nc
+Opening ua150m and va150m
+ua150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200601010100-200701010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200601010100-200701010000.nc
+va150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200601010100-200701010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200601010100-200701010000.nc
+Applying time selection: instant
+<xarray.Dataset> Size: 6GB
+Dimensions:  (height: 3, rlat: 412, rlon: 424, time: 2920)
+Coordinates:
+  * height   (height) float64 24B 50.0 100.0 150.0
+  * rlat     (rlat) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+  * rlon     (rlon) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+    lat      (rlat, rlon) float64 1MB 20.24 20.28 20.32 ... 65.66 65.61 65.55
+    lon      (rlat, rlon) float64 1MB -9.74 -9.643 -9.545 ... 61.18 61.39 61.59
+  * time     (time) object 23kB 2006-01-01 03:00:00 ... 2007-01-01 00:00:00
+Data variables:
+    WS       (height, time, rlat, rlon) float32 6GB dask.array<chunksize=(1, 673, 412, 424), meta=np.ndarray>
+Opening metadata...
+Metadata sites: 32
+Metadata columns: ['sites', 'lat', 'lon', 'elev', 'type', 'location', 'assumed timezone']
+              sites      lat      lon   elev type  location assumed timezone
+0       Babbage_100  53.9630  1.21900  108.0    L  offshore              UTC
+1      Beatrice_100  58.1082 -3.06928  105.5    L  offshore              UTC
+2      Boerglum_100  57.3400  9.81000   31.5    M   coastal            UTC+1
+3        Cabauw_100  51.9700  4.93000  140.0    M      land              UTC
+4  EgmondaanZee_100  52.6064  4.38964  116.0    M  offshore              UTC
+No measurement-height column found. Using 100 m for all sites.
+TEMPORARY WORKAROUND: using nearest grid point from valid 2D lat/lon.
+This avoids broken rlat/rlon coordinates. Regenerate outputs after rlat/rlon are corrected.
+Babbage_100: site=(53.963, 1.219), grid=(54.013, 1.204), iy=268, ix=173, height=100.0 m
+Beatrice_100: site=(58.108, -3.069), grid=(58.045, -3.112), iy=309, ix=161, height=100.0 m
+Boerglum_100: site=(57.340, 9.810), grid=(57.305, 9.865), iy=290, ix=222, height=100.0 m
+Cabauw_100: site=(51.970, 4.930), grid=(51.993, 4.871), iy=246, ix=189, height=100.0 m
+EgmondaanZee_100: site=(52.606, 4.390), grid=(52.603, 4.324), iy=252, ix=187, height=100.0 m
+FINO1_100: site=(54.015, 6.588), grid=(53.947, 6.548), iy=262, ix=201, height=100.0 m
+FINO2_100: site=(55.007, 13.154), grid=(55.038, 13.186), iy=268, ix=237, height=100.0 m
+FINO3_100: site=(55.195, 7.119), grid=(55.225, 7.170), iy=273, ix=206, height=100.0 m
+GreaterGabbard_100: site=(51.873, 1.915), grid=(51.866, 2.004), iy=248, ix=173, height=100.0 m
+HornsRev2_100: site=(55.519, 7.788), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+HornsRevM7_100: site=(55.487, 7.975), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+Hovsore_100: site=(56.441, 8.151), grid=(56.421, 8.249), iy=283, ix=213, height=100.0 m
+Ijmuiden_100: site=(52.848, 3.436), grid=(52.844, 3.508), iy=255, ix=183, height=100.0 m
+Karehamn_100: site=(57.009, 17.006), grid=(56.994, 16.969), iy=285, ix=257, height=100.0 m
+Lillgrund_100: site=(55.500, 12.765), grid=(55.462, 12.749), iy=272, ix=235, height=100.0 m
+Oesterild_100: site=(57.079, 8.869), grid=(57.132, 8.887), iy=289, ix=217, height=100.0 m
+OesterildS_100: site=(57.051, 8.875), grid=(57.022, 8.912), iy=288, ix=217, height=100.0 m
+Omoe_100: site=(55.050, 11.130), grid=(55.051, 11.071), iy=269, ix=226, height=100.0 m
+Risoe_100: site=(55.694, 12.088), grid=(55.656, 12.140), iy=274, ix=232, height=100.0 m
+Ryningsnaas_100: site=(57.276, 15.987), grid=(57.312, 15.949), iy=288, ix=252, height=100.0 m
+Schooner_100: site=(54.050, 2.083), grid=(54.025, 2.156), iy=267, ix=178, height=100.0 m
+Siri_100: site=(56.482, 4.911), grid=(56.460, 4.834), iy=286, ix=196, height=100.0 m
+Soroe_100: site=(55.486, 11.645), grid=(55.519, 11.577), iy=273, ix=229, height=100.0 m
+Taqa_100: site=(52.306, 3.685), grid=(52.304, 3.683), iy=250, ix=183, height=100.0 m
+Tystofte_100: site=(55.240, 11.330), grid=(55.291, 11.418), iy=271, ix=228, height=100.0 m
+Utsira_100: site=(59.303, 4.887), grid=(59.263, 4.925), iy=311, ix=201, height=100.0 m
+Lindenberg_100: site=(52.170, 14.120), grid=(52.208, 14.206), iy=242, ix=241, height=100.0 m
+Hyytiala_100: site=(61.850, 24.290), grid=(61.815, 24.376), iy=330, ix=290, height=100.0 m
+Puijo_100: site=(62.910, 27.650), grid=(62.864, 27.661), iy=341, ix=303, height=100.0 m
+DockingShoal_100: site=(53.160, 0.650), grid=(53.138, 0.600), iy=261, ix=168, height=100.0 m
+GwyntYMor_100: site=(53.480, -3.510), grid=(53.498, -3.555), iy=270, ix=147, height=100.0 m
+LondonArray_100: site=(51.590, 1.390), grid=(51.556, 1.388), iy=246, ix=169, height=100.0 m
+<xarray.DataArray 'Babbage_100' (site: 32, time: 2920)> Size: 374kB
+dask.array<concatenate, shape=(32, 2920), dtype=float32, chunksize=(1, 228), chunktype=numpy.ndarray>
+Coordinates:
+  * site     (site) object 256B 'Babbage_100' ... 'LondonArray_100'
+    lat      (site) float64 256B 54.01 58.05 57.3 51.99 ... 53.14 53.5 51.56
+    lon      (site) float64 256B 1.204 -3.112 9.865 ... 0.6005 -3.555 1.388
+  * time     (time) object 23kB 2006-01-01 03:00:00 ... 2007-01-01 00:00:00
+    height   float64 8B 100.0
+    rlon     float64 8B 9.969e+36
+    rlat     float64 8B 9.969e+36
+Attributes:
+    units:         m s-1
+    grid_mapping:  crs
+    cell_methods:  time: point
+Extracting time series...
+Writing: /leonardo/home/userexternal/gluziada/VRE_CORDEX/cordex_vre/output/cordex_cmip6/WS-TS_CORDEX-CMIP6_EC-Earth3-Veg_RegCM5-0_historical_r1i1p1f1_2006-2006_instant_TEMP_NEAREST.csv
+WS extraction complete.
+TEMPORARY OUTPUT: nearest-neighbour horizontal extraction.
+Finished year 2006
+========================================
+Running year 2007
+========================================
+workers: 1 threads: 8 {'inproc://10.137.0.12/57333/4': 8}
+Model: EC-Earth3-Veg_RegCM5-0
+Experiment: historical
+Years: 2007 2007
+Aggregation method: instant
+Building WS dataset from ua/va at 50, 100, 150 m...
+Opening ua50m and va50m
+ua50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200701010100-200801010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200701010100-200801010000.nc
+va50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200701010100-200801010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200701010100-200801010000.nc
+Opening ua100m and va100m
+ua100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200701010100-200801010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200701010100-200801010000.nc
+va100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200701010100-200801010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200701010100-200801010000.nc
+Opening ua150m and va150m
+ua150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200701010100-200801010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200701010100-200801010000.nc
+va150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200701010100-200801010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200701010100-200801010000.nc
+Applying time selection: instant
+<xarray.Dataset> Size: 6GB
+Dimensions:  (height: 3, rlat: 412, rlon: 424, time: 2920)
+Coordinates:
+  * height   (height) float64 24B 50.0 100.0 150.0
+  * rlat     (rlat) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+  * rlon     (rlon) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+    lat      (rlat, rlon) float64 1MB 20.24 20.28 20.32 ... 65.66 65.61 65.55
+    lon      (rlat, rlon) float64 1MB -9.74 -9.643 -9.545 ... 61.18 61.39 61.59
+  * time     (time) object 23kB 2007-01-01 03:00:00 ... 2008-01-01 00:00:00
+Data variables:
+    WS       (height, time, rlat, rlon) float32 6GB dask.array<chunksize=(1, 673, 412, 424), meta=np.ndarray>
+Opening metadata...
+Metadata sites: 32
+Metadata columns: ['sites', 'lat', 'lon', 'elev', 'type', 'location', 'assumed timezone']
+              sites      lat      lon   elev type  location assumed timezone
+0       Babbage_100  53.9630  1.21900  108.0    L  offshore              UTC
+1      Beatrice_100  58.1082 -3.06928  105.5    L  offshore              UTC
+2      Boerglum_100  57.3400  9.81000   31.5    M   coastal            UTC+1
+3        Cabauw_100  51.9700  4.93000  140.0    M      land              UTC
+4  EgmondaanZee_100  52.6064  4.38964  116.0    M  offshore              UTC
+No measurement-height column found. Using 100 m for all sites.
+TEMPORARY WORKAROUND: using nearest grid point from valid 2D lat/lon.
+This avoids broken rlat/rlon coordinates. Regenerate outputs after rlat/rlon are corrected.
+Babbage_100: site=(53.963, 1.219), grid=(54.013, 1.204), iy=268, ix=173, height=100.0 m
+Beatrice_100: site=(58.108, -3.069), grid=(58.045, -3.112), iy=309, ix=161, height=100.0 m
+Boerglum_100: site=(57.340, 9.810), grid=(57.305, 9.865), iy=290, ix=222, height=100.0 m
+Cabauw_100: site=(51.970, 4.930), grid=(51.993, 4.871), iy=246, ix=189, height=100.0 m
+EgmondaanZee_100: site=(52.606, 4.390), grid=(52.603, 4.324), iy=252, ix=187, height=100.0 m
+FINO1_100: site=(54.015, 6.588), grid=(53.947, 6.548), iy=262, ix=201, height=100.0 m
+FINO2_100: site=(55.007, 13.154), grid=(55.038, 13.186), iy=268, ix=237, height=100.0 m
+FINO3_100: site=(55.195, 7.119), grid=(55.225, 7.170), iy=273, ix=206, height=100.0 m
+GreaterGabbard_100: site=(51.873, 1.915), grid=(51.866, 2.004), iy=248, ix=173, height=100.0 m
+HornsRev2_100: site=(55.519, 7.788), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+HornsRevM7_100: site=(55.487, 7.975), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+Hovsore_100: site=(56.441, 8.151), grid=(56.421, 8.249), iy=283, ix=213, height=100.0 m
+Ijmuiden_100: site=(52.848, 3.436), grid=(52.844, 3.508), iy=255, ix=183, height=100.0 m
+Karehamn_100: site=(57.009, 17.006), grid=(56.994, 16.969), iy=285, ix=257, height=100.0 m
+Lillgrund_100: site=(55.500, 12.765), grid=(55.462, 12.749), iy=272, ix=235, height=100.0 m
+Oesterild_100: site=(57.079, 8.869), grid=(57.132, 8.887), iy=289, ix=217, height=100.0 m
+OesterildS_100: site=(57.051, 8.875), grid=(57.022, 8.912), iy=288, ix=217, height=100.0 m
+Omoe_100: site=(55.050, 11.130), grid=(55.051, 11.071), iy=269, ix=226, height=100.0 m
+Risoe_100: site=(55.694, 12.088), grid=(55.656, 12.140), iy=274, ix=232, height=100.0 m
+Ryningsnaas_100: site=(57.276, 15.987), grid=(57.312, 15.949), iy=288, ix=252, height=100.0 m
+Schooner_100: site=(54.050, 2.083), grid=(54.025, 2.156), iy=267, ix=178, height=100.0 m
+Siri_100: site=(56.482, 4.911), grid=(56.460, 4.834), iy=286, ix=196, height=100.0 m
+Soroe_100: site=(55.486, 11.645), grid=(55.519, 11.577), iy=273, ix=229, height=100.0 m
+Taqa_100: site=(52.306, 3.685), grid=(52.304, 3.683), iy=250, ix=183, height=100.0 m
+Tystofte_100: site=(55.240, 11.330), grid=(55.291, 11.418), iy=271, ix=228, height=100.0 m
+Utsira_100: site=(59.303, 4.887), grid=(59.263, 4.925), iy=311, ix=201, height=100.0 m
+Lindenberg_100: site=(52.170, 14.120), grid=(52.208, 14.206), iy=242, ix=241, height=100.0 m
+Hyytiala_100: site=(61.850, 24.290), grid=(61.815, 24.376), iy=330, ix=290, height=100.0 m
+Puijo_100: site=(62.910, 27.650), grid=(62.864, 27.661), iy=341, ix=303, height=100.0 m
+DockingShoal_100: site=(53.160, 0.650), grid=(53.138, 0.600), iy=261, ix=168, height=100.0 m
+GwyntYMor_100: site=(53.480, -3.510), grid=(53.498, -3.555), iy=270, ix=147, height=100.0 m
+LondonArray_100: site=(51.590, 1.390), grid=(51.556, 1.388), iy=246, ix=169, height=100.0 m
+<xarray.DataArray 'Babbage_100' (site: 32, time: 2920)> Size: 374kB
+dask.array<concatenate, shape=(32, 2920), dtype=float32, chunksize=(1, 228), chunktype=numpy.ndarray>
+Coordinates:
+  * site     (site) object 256B 'Babbage_100' ... 'LondonArray_100'
+    lat      (site) float64 256B 54.01 58.05 57.3 51.99 ... 53.14 53.5 51.56
+    lon      (site) float64 256B 1.204 -3.112 9.865 ... 0.6005 -3.555 1.388
+  * time     (time) object 23kB 2007-01-01 03:00:00 ... 2008-01-01 00:00:00
+    height   float64 8B 100.0
+    rlon     float64 8B 9.969e+36
+    rlat     float64 8B 9.969e+36
+Attributes:
+    units:         m s-1
+    grid_mapping:  crs
+    cell_methods:  time: point
+Extracting time series...
+Writing: /leonardo/home/userexternal/gluziada/VRE_CORDEX/cordex_vre/output/cordex_cmip6/WS-TS_CORDEX-CMIP6_EC-Earth3-Veg_RegCM5-0_historical_r1i1p1f1_2007-2007_instant_TEMP_NEAREST.csv
+WS extraction complete.
+TEMPORARY OUTPUT: nearest-neighbour horizontal extraction.
+Finished year 2007
+========================================
+Running year 2008
+========================================
+workers: 1 threads: 8 {'inproc://10.137.0.12/95248/4': 8}
+Model: EC-Earth3-Veg_RegCM5-0
+Experiment: historical
+Years: 2008 2008
+Aggregation method: instant
+Building WS dataset from ua/va at 50, 100, 150 m...
+Opening ua50m and va50m
+ua50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200801010100-200901010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200801010100-200901010000.nc
+va50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200801010100-200901010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200801010100-200901010000.nc
+Opening ua100m and va100m
+ua100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200801010100-200901010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200801010100-200901010000.nc
+va100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200801010100-200901010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200801010100-200901010000.nc
+Opening ua150m and va150m
+ua150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200801010100-200901010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200801010100-200901010000.nc
+va150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200801010100-200901010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200801010100-200901010000.nc
+Applying time selection: instant
+<xarray.Dataset> Size: 6GB
+Dimensions:  (height: 3, rlat: 412, rlon: 424, time: 2928)
+Coordinates:
+  * height   (height) float64 24B 50.0 100.0 150.0
+  * rlat     (rlat) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+  * rlon     (rlon) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+    lat      (rlat, rlon) float64 1MB 20.24 20.28 20.32 ... 65.66 65.61 65.55
+    lon      (rlat, rlon) float64 1MB -9.74 -9.643 -9.545 ... 61.18 61.39 61.59
+  * time     (time) object 23kB 2008-01-01 03:00:00 ... 2009-01-01 00:00:00
+Data variables:
+    WS       (height, time, rlat, rlon) float32 6GB dask.array<chunksize=(1, 675, 412, 424), meta=np.ndarray>
+Opening metadata...
+Metadata sites: 32
+Metadata columns: ['sites', 'lat', 'lon', 'elev', 'type', 'location', 'assumed timezone']
+              sites      lat      lon   elev type  location assumed timezone
+0       Babbage_100  53.9630  1.21900  108.0    L  offshore              UTC
+1      Beatrice_100  58.1082 -3.06928  105.5    L  offshore              UTC
+2      Boerglum_100  57.3400  9.81000   31.5    M   coastal            UTC+1
+3        Cabauw_100  51.9700  4.93000  140.0    M      land              UTC
+4  EgmondaanZee_100  52.6064  4.38964  116.0    M  offshore              UTC
+No measurement-height column found. Using 100 m for all sites.
+TEMPORARY WORKAROUND: using nearest grid point from valid 2D lat/lon.
+This avoids broken rlat/rlon coordinates. Regenerate outputs after rlat/rlon are corrected.
+Babbage_100: site=(53.963, 1.219), grid=(54.013, 1.204), iy=268, ix=173, height=100.0 m
+Beatrice_100: site=(58.108, -3.069), grid=(58.045, -3.112), iy=309, ix=161, height=100.0 m
+Boerglum_100: site=(57.340, 9.810), grid=(57.305, 9.865), iy=290, ix=222, height=100.0 m
+Cabauw_100: site=(51.970, 4.930), grid=(51.993, 4.871), iy=246, ix=189, height=100.0 m
+EgmondaanZee_100: site=(52.606, 4.390), grid=(52.603, 4.324), iy=252, ix=187, height=100.0 m
+FINO1_100: site=(54.015, 6.588), grid=(53.947, 6.548), iy=262, ix=201, height=100.0 m
+FINO2_100: site=(55.007, 13.154), grid=(55.038, 13.186), iy=268, ix=237, height=100.0 m
+FINO3_100: site=(55.195, 7.119), grid=(55.225, 7.170), iy=273, ix=206, height=100.0 m
+GreaterGabbard_100: site=(51.873, 1.915), grid=(51.866, 2.004), iy=248, ix=173, height=100.0 m
+HornsRev2_100: site=(55.519, 7.788), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+HornsRevM7_100: site=(55.487, 7.975), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+Hovsore_100: site=(56.441, 8.151), grid=(56.421, 8.249), iy=283, ix=213, height=100.0 m
+Ijmuiden_100: site=(52.848, 3.436), grid=(52.844, 3.508), iy=255, ix=183, height=100.0 m
+Karehamn_100: site=(57.009, 17.006), grid=(56.994, 16.969), iy=285, ix=257, height=100.0 m
+Lillgrund_100: site=(55.500, 12.765), grid=(55.462, 12.749), iy=272, ix=235, height=100.0 m
+Oesterild_100: site=(57.079, 8.869), grid=(57.132, 8.887), iy=289, ix=217, height=100.0 m
+OesterildS_100: site=(57.051, 8.875), grid=(57.022, 8.912), iy=288, ix=217, height=100.0 m
+Omoe_100: site=(55.050, 11.130), grid=(55.051, 11.071), iy=269, ix=226, height=100.0 m
+Risoe_100: site=(55.694, 12.088), grid=(55.656, 12.140), iy=274, ix=232, height=100.0 m
+Ryningsnaas_100: site=(57.276, 15.987), grid=(57.312, 15.949), iy=288, ix=252, height=100.0 m
+Schooner_100: site=(54.050, 2.083), grid=(54.025, 2.156), iy=267, ix=178, height=100.0 m
+Siri_100: site=(56.482, 4.911), grid=(56.460, 4.834), iy=286, ix=196, height=100.0 m
+Soroe_100: site=(55.486, 11.645), grid=(55.519, 11.577), iy=273, ix=229, height=100.0 m
+Taqa_100: site=(52.306, 3.685), grid=(52.304, 3.683), iy=250, ix=183, height=100.0 m
+Tystofte_100: site=(55.240, 11.330), grid=(55.291, 11.418), iy=271, ix=228, height=100.0 m
+Utsira_100: site=(59.303, 4.887), grid=(59.263, 4.925), iy=311, ix=201, height=100.0 m
+Lindenberg_100: site=(52.170, 14.120), grid=(52.208, 14.206), iy=242, ix=241, height=100.0 m
+Hyytiala_100: site=(61.850, 24.290), grid=(61.815, 24.376), iy=330, ix=290, height=100.0 m
+Puijo_100: site=(62.910, 27.650), grid=(62.864, 27.661), iy=341, ix=303, height=100.0 m
+DockingShoal_100: site=(53.160, 0.650), grid=(53.138, 0.600), iy=261, ix=168, height=100.0 m
+GwyntYMor_100: site=(53.480, -3.510), grid=(53.498, -3.555), iy=270, ix=147, height=100.0 m
+LondonArray_100: site=(51.590, 1.390), grid=(51.556, 1.388), iy=246, ix=169, height=100.0 m
+<xarray.DataArray 'Babbage_100' (site: 32, time: 2928)> Size: 375kB
+dask.array<concatenate, shape=(32, 2928), dtype=float32, chunksize=(1, 228), chunktype=numpy.ndarray>
+Coordinates:
+  * site     (site) object 256B 'Babbage_100' ... 'LondonArray_100'
+    lat      (site) float64 256B 54.01 58.05 57.3 51.99 ... 53.14 53.5 51.56
+    lon      (site) float64 256B 1.204 -3.112 9.865 ... 0.6005 -3.555 1.388
+  * time     (time) object 23kB 2008-01-01 03:00:00 ... 2009-01-01 00:00:00
+    height   float64 8B 100.0
+    rlon     float64 8B 9.969e+36
+    rlat     float64 8B 9.969e+36
+Attributes:
+    units:         m s-1
+    grid_mapping:  crs
+    cell_methods:  time: point
+Extracting time series...
+Writing: /leonardo/home/userexternal/gluziada/VRE_CORDEX/cordex_vre/output/cordex_cmip6/WS-TS_CORDEX-CMIP6_EC-Earth3-Veg_RegCM5-0_historical_r1i1p1f1_2008-2008_instant_TEMP_NEAREST.csv
+WS extraction complete.
+TEMPORARY OUTPUT: nearest-neighbour horizontal extraction.
+Finished year 2008
+========================================
+Running year 2009
+========================================
+workers: 1 threads: 8 {'inproc://10.137.0.12/104767/4': 8}
+Model: EC-Earth3-Veg_RegCM5-0
+Experiment: historical
+Years: 2009 2009
+Aggregation method: instant
+Building WS dataset from ua/va at 50, 100, 150 m...
+Opening ua50m and va50m
+ua50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200901010100-201001010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200901010100-201001010000.nc
+va50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200901010100-201001010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200901010100-201001010000.nc
+Opening ua100m and va100m
+ua100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200901010100-201001010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200901010100-201001010000.nc
+va100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200901010100-201001010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200901010100-201001010000.nc
+Opening ua150m and va150m
+ua150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200901010100-201001010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200901010100-201001010000.nc
+va150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200901010100-201001010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_200901010100-201001010000.nc
+Applying time selection: instant
+<xarray.Dataset> Size: 6GB
+Dimensions:  (height: 3, rlat: 412, rlon: 424, time: 2920)
+Coordinates:
+  * height   (height) float64 24B 50.0 100.0 150.0
+  * rlat     (rlat) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+  * rlon     (rlon) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+    lat      (rlat, rlon) float64 1MB 20.24 20.28 20.32 ... 65.66 65.61 65.55
+    lon      (rlat, rlon) float64 1MB -9.74 -9.643 -9.545 ... 61.18 61.39 61.59
+  * time     (time) object 23kB 2009-01-01 03:00:00 ... 2010-01-01 00:00:00
+Data variables:
+    WS       (height, time, rlat, rlon) float32 6GB dask.array<chunksize=(1, 673, 412, 424), meta=np.ndarray>
+Opening metadata...
+Metadata sites: 32
+Metadata columns: ['sites', 'lat', 'lon', 'elev', 'type', 'location', 'assumed timezone']
+              sites      lat      lon   elev type  location assumed timezone
+0       Babbage_100  53.9630  1.21900  108.0    L  offshore              UTC
+1      Beatrice_100  58.1082 -3.06928  105.5    L  offshore              UTC
+2      Boerglum_100  57.3400  9.81000   31.5    M   coastal            UTC+1
+3        Cabauw_100  51.9700  4.93000  140.0    M      land              UTC
+4  EgmondaanZee_100  52.6064  4.38964  116.0    M  offshore              UTC
+No measurement-height column found. Using 100 m for all sites.
+TEMPORARY WORKAROUND: using nearest grid point from valid 2D lat/lon.
+This avoids broken rlat/rlon coordinates. Regenerate outputs after rlat/rlon are corrected.
+Babbage_100: site=(53.963, 1.219), grid=(54.013, 1.204), iy=268, ix=173, height=100.0 m
+Beatrice_100: site=(58.108, -3.069), grid=(58.045, -3.112), iy=309, ix=161, height=100.0 m
+Boerglum_100: site=(57.340, 9.810), grid=(57.305, 9.865), iy=290, ix=222, height=100.0 m
+Cabauw_100: site=(51.970, 4.930), grid=(51.993, 4.871), iy=246, ix=189, height=100.0 m
+EgmondaanZee_100: site=(52.606, 4.390), grid=(52.603, 4.324), iy=252, ix=187, height=100.0 m
+FINO1_100: site=(54.015, 6.588), grid=(53.947, 6.548), iy=262, ix=201, height=100.0 m
+FINO2_100: site=(55.007, 13.154), grid=(55.038, 13.186), iy=268, ix=237, height=100.0 m
+FINO3_100: site=(55.195, 7.119), grid=(55.225, 7.170), iy=273, ix=206, height=100.0 m
+GreaterGabbard_100: site=(51.873, 1.915), grid=(51.866, 2.004), iy=248, ix=173, height=100.0 m
+HornsRev2_100: site=(55.519, 7.788), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+HornsRevM7_100: site=(55.487, 7.975), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+Hovsore_100: site=(56.441, 8.151), grid=(56.421, 8.249), iy=283, ix=213, height=100.0 m
+Ijmuiden_100: site=(52.848, 3.436), grid=(52.844, 3.508), iy=255, ix=183, height=100.0 m
+Karehamn_100: site=(57.009, 17.006), grid=(56.994, 16.969), iy=285, ix=257, height=100.0 m
+Lillgrund_100: site=(55.500, 12.765), grid=(55.462, 12.749), iy=272, ix=235, height=100.0 m
+Oesterild_100: site=(57.079, 8.869), grid=(57.132, 8.887), iy=289, ix=217, height=100.0 m
+OesterildS_100: site=(57.051, 8.875), grid=(57.022, 8.912), iy=288, ix=217, height=100.0 m
+Omoe_100: site=(55.050, 11.130), grid=(55.051, 11.071), iy=269, ix=226, height=100.0 m
+Risoe_100: site=(55.694, 12.088), grid=(55.656, 12.140), iy=274, ix=232, height=100.0 m
+Ryningsnaas_100: site=(57.276, 15.987), grid=(57.312, 15.949), iy=288, ix=252, height=100.0 m
+Schooner_100: site=(54.050, 2.083), grid=(54.025, 2.156), iy=267, ix=178, height=100.0 m
+Siri_100: site=(56.482, 4.911), grid=(56.460, 4.834), iy=286, ix=196, height=100.0 m
+Soroe_100: site=(55.486, 11.645), grid=(55.519, 11.577), iy=273, ix=229, height=100.0 m
+Taqa_100: site=(52.306, 3.685), grid=(52.304, 3.683), iy=250, ix=183, height=100.0 m
+Tystofte_100: site=(55.240, 11.330), grid=(55.291, 11.418), iy=271, ix=228, height=100.0 m
+Utsira_100: site=(59.303, 4.887), grid=(59.263, 4.925), iy=311, ix=201, height=100.0 m
+Lindenberg_100: site=(52.170, 14.120), grid=(52.208, 14.206), iy=242, ix=241, height=100.0 m
+Hyytiala_100: site=(61.850, 24.290), grid=(61.815, 24.376), iy=330, ix=290, height=100.0 m
+Puijo_100: site=(62.910, 27.650), grid=(62.864, 27.661), iy=341, ix=303, height=100.0 m
+DockingShoal_100: site=(53.160, 0.650), grid=(53.138, 0.600), iy=261, ix=168, height=100.0 m
+GwyntYMor_100: site=(53.480, -3.510), grid=(53.498, -3.555), iy=270, ix=147, height=100.0 m
+LondonArray_100: site=(51.590, 1.390), grid=(51.556, 1.388), iy=246, ix=169, height=100.0 m
+<xarray.DataArray 'Babbage_100' (site: 32, time: 2920)> Size: 374kB
+dask.array<concatenate, shape=(32, 2920), dtype=float32, chunksize=(1, 228), chunktype=numpy.ndarray>
+Coordinates:
+  * site     (site) object 256B 'Babbage_100' ... 'LondonArray_100'
+    lat      (site) float64 256B 54.01 58.05 57.3 51.99 ... 53.14 53.5 51.56
+    lon      (site) float64 256B 1.204 -3.112 9.865 ... 0.6005 -3.555 1.388
+  * time     (time) object 23kB 2009-01-01 03:00:00 ... 2010-01-01 00:00:00
+    height   float64 8B 100.0
+    rlon     float64 8B 9.969e+36
+    rlat     float64 8B 9.969e+36
+Attributes:
+    units:         m s-1
+    grid_mapping:  crs
+    cell_methods:  time: point
+Extracting time series...
+Writing: /leonardo/home/userexternal/gluziada/VRE_CORDEX/cordex_vre/output/cordex_cmip6/WS-TS_CORDEX-CMIP6_EC-Earth3-Veg_RegCM5-0_historical_r1i1p1f1_2009-2009_instant_TEMP_NEAREST.csv
+WS extraction complete.
+TEMPORARY OUTPUT: nearest-neighbour horizontal extraction.
+Finished year 2009
+========================================
+Running year 2010
+========================================
+workers: 1 threads: 8 {'inproc://10.137.0.12/105086/4': 8}
+Model: EC-Earth3-Veg_RegCM5-0
+Experiment: historical
+Years: 2010 2010
+Aggregation method: instant
+Building WS dataset from ua/va at 50, 100, 150 m...
+Opening ua50m and va50m
+ua50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201001010100-201101010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201001010100-201101010000.nc
+va50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201001010100-201101010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201001010100-201101010000.nc
+Opening ua100m and va100m
+ua100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201001010100-201101010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201001010100-201101010000.nc
+va100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201001010100-201101010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201001010100-201101010000.nc
+Opening ua150m and va150m
+ua150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201001010100-201101010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201001010100-201101010000.nc
+va150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201001010100-201101010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201001010100-201101010000.nc
+Applying time selection: instant
+<xarray.Dataset> Size: 6GB
+Dimensions:  (height: 3, rlat: 412, rlon: 424, time: 2920)
+Coordinates:
+  * height   (height) float64 24B 50.0 100.0 150.0
+  * rlat     (rlat) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+  * rlon     (rlon) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+    lat      (rlat, rlon) float64 1MB 20.24 20.28 20.32 ... 65.66 65.61 65.55
+    lon      (rlat, rlon) float64 1MB -9.74 -9.643 -9.545 ... 61.18 61.39 61.59
+  * time     (time) object 23kB 2010-01-01 03:00:00 ... 2011-01-01 00:00:00
+Data variables:
+    WS       (height, time, rlat, rlon) float32 6GB dask.array<chunksize=(1, 673, 412, 424), meta=np.ndarray>
+Opening metadata...
+Metadata sites: 32
+Metadata columns: ['sites', 'lat', 'lon', 'elev', 'type', 'location', 'assumed timezone']
+              sites      lat      lon   elev type  location assumed timezone
+0       Babbage_100  53.9630  1.21900  108.0    L  offshore              UTC
+1      Beatrice_100  58.1082 -3.06928  105.5    L  offshore              UTC
+2      Boerglum_100  57.3400  9.81000   31.5    M   coastal            UTC+1
+3        Cabauw_100  51.9700  4.93000  140.0    M      land              UTC
+4  EgmondaanZee_100  52.6064  4.38964  116.0    M  offshore              UTC
+No measurement-height column found. Using 100 m for all sites.
+TEMPORARY WORKAROUND: using nearest grid point from valid 2D lat/lon.
+This avoids broken rlat/rlon coordinates. Regenerate outputs after rlat/rlon are corrected.
+Babbage_100: site=(53.963, 1.219), grid=(54.013, 1.204), iy=268, ix=173, height=100.0 m
+Beatrice_100: site=(58.108, -3.069), grid=(58.045, -3.112), iy=309, ix=161, height=100.0 m
+Boerglum_100: site=(57.340, 9.810), grid=(57.305, 9.865), iy=290, ix=222, height=100.0 m
+Cabauw_100: site=(51.970, 4.930), grid=(51.993, 4.871), iy=246, ix=189, height=100.0 m
+EgmondaanZee_100: site=(52.606, 4.390), grid=(52.603, 4.324), iy=252, ix=187, height=100.0 m
+FINO1_100: site=(54.015, 6.588), grid=(53.947, 6.548), iy=262, ix=201, height=100.0 m
+FINO2_100: site=(55.007, 13.154), grid=(55.038, 13.186), iy=268, ix=237, height=100.0 m
+FINO3_100: site=(55.195, 7.119), grid=(55.225, 7.170), iy=273, ix=206, height=100.0 m
+GreaterGabbard_100: site=(51.873, 1.915), grid=(51.866, 2.004), iy=248, ix=173, height=100.0 m
+HornsRev2_100: site=(55.519, 7.788), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+HornsRevM7_100: site=(55.487, 7.975), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+Hovsore_100: site=(56.441, 8.151), grid=(56.421, 8.249), iy=283, ix=213, height=100.0 m
+Ijmuiden_100: site=(52.848, 3.436), grid=(52.844, 3.508), iy=255, ix=183, height=100.0 m
+Karehamn_100: site=(57.009, 17.006), grid=(56.994, 16.969), iy=285, ix=257, height=100.0 m
+Lillgrund_100: site=(55.500, 12.765), grid=(55.462, 12.749), iy=272, ix=235, height=100.0 m
+Oesterild_100: site=(57.079, 8.869), grid=(57.132, 8.887), iy=289, ix=217, height=100.0 m
+OesterildS_100: site=(57.051, 8.875), grid=(57.022, 8.912), iy=288, ix=217, height=100.0 m
+Omoe_100: site=(55.050, 11.130), grid=(55.051, 11.071), iy=269, ix=226, height=100.0 m
+Risoe_100: site=(55.694, 12.088), grid=(55.656, 12.140), iy=274, ix=232, height=100.0 m
+Ryningsnaas_100: site=(57.276, 15.987), grid=(57.312, 15.949), iy=288, ix=252, height=100.0 m
+Schooner_100: site=(54.050, 2.083), grid=(54.025, 2.156), iy=267, ix=178, height=100.0 m
+Siri_100: site=(56.482, 4.911), grid=(56.460, 4.834), iy=286, ix=196, height=100.0 m
+Soroe_100: site=(55.486, 11.645), grid=(55.519, 11.577), iy=273, ix=229, height=100.0 m
+Taqa_100: site=(52.306, 3.685), grid=(52.304, 3.683), iy=250, ix=183, height=100.0 m
+Tystofte_100: site=(55.240, 11.330), grid=(55.291, 11.418), iy=271, ix=228, height=100.0 m
+Utsira_100: site=(59.303, 4.887), grid=(59.263, 4.925), iy=311, ix=201, height=100.0 m
+Lindenberg_100: site=(52.170, 14.120), grid=(52.208, 14.206), iy=242, ix=241, height=100.0 m
+Hyytiala_100: site=(61.850, 24.290), grid=(61.815, 24.376), iy=330, ix=290, height=100.0 m
+Puijo_100: site=(62.910, 27.650), grid=(62.864, 27.661), iy=341, ix=303, height=100.0 m
+DockingShoal_100: site=(53.160, 0.650), grid=(53.138, 0.600), iy=261, ix=168, height=100.0 m
+GwyntYMor_100: site=(53.480, -3.510), grid=(53.498, -3.555), iy=270, ix=147, height=100.0 m
+LondonArray_100: site=(51.590, 1.390), grid=(51.556, 1.388), iy=246, ix=169, height=100.0 m
+<xarray.DataArray 'Babbage_100' (site: 32, time: 2920)> Size: 374kB
+dask.array<concatenate, shape=(32, 2920), dtype=float32, chunksize=(1, 228), chunktype=numpy.ndarray>
+Coordinates:
+  * site     (site) object 256B 'Babbage_100' ... 'LondonArray_100'
+    lat      (site) float64 256B 54.01 58.05 57.3 51.99 ... 53.14 53.5 51.56
+    lon      (site) float64 256B 1.204 -3.112 9.865 ... 0.6005 -3.555 1.388
+  * time     (time) object 23kB 2010-01-01 03:00:00 ... 2011-01-01 00:00:00
+    height   float64 8B 100.0
+    rlon     float64 8B 9.969e+36
+    rlat     float64 8B 9.969e+36
+Attributes:
+    units:         m s-1
+    grid_mapping:  crs
+    cell_methods:  time: point
+Extracting time series...
+Writing: /leonardo/home/userexternal/gluziada/VRE_CORDEX/cordex_vre/output/cordex_cmip6/WS-TS_CORDEX-CMIP6_EC-Earth3-Veg_RegCM5-0_historical_r1i1p1f1_2010-2010_instant_TEMP_NEAREST.csv
+WS extraction complete.
+TEMPORARY OUTPUT: nearest-neighbour horizontal extraction.
+Finished year 2010
+========================================
+Running year 2011
+========================================
+workers: 1 threads: 8 {'inproc://10.137.0.12/105245/4': 8}
+Model: EC-Earth3-Veg_RegCM5-0
+Experiment: historical
+Years: 2011 2011
+Aggregation method: instant
+Building WS dataset from ua/va at 50, 100, 150 m...
+Opening ua50m and va50m
+ua50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201101010100-201201010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201101010100-201201010000.nc
+va50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201101010100-201201010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201101010100-201201010000.nc
+Opening ua100m and va100m
+ua100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201101010100-201201010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201101010100-201201010000.nc
+va100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201101010100-201201010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201101010100-201201010000.nc
+Opening ua150m and va150m
+ua150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201101010100-201201010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201101010100-201201010000.nc
+va150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201101010100-201201010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201101010100-201201010000.nc
+Applying time selection: instant
+<xarray.Dataset> Size: 6GB
+Dimensions:  (height: 3, rlat: 412, rlon: 424, time: 2920)
+Coordinates:
+  * height   (height) float64 24B 50.0 100.0 150.0
+  * rlat     (rlat) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+  * rlon     (rlon) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+    lat      (rlat, rlon) float64 1MB 20.24 20.28 20.32 ... 65.66 65.61 65.55
+    lon      (rlat, rlon) float64 1MB -9.74 -9.643 -9.545 ... 61.18 61.39 61.59
+  * time     (time) object 23kB 2011-01-01 03:00:00 ... 2012-01-01 00:00:00
+Data variables:
+    WS       (height, time, rlat, rlon) float32 6GB dask.array<chunksize=(1, 673, 412, 424), meta=np.ndarray>
+Opening metadata...
+Metadata sites: 32
+Metadata columns: ['sites', 'lat', 'lon', 'elev', 'type', 'location', 'assumed timezone']
+              sites      lat      lon   elev type  location assumed timezone
+0       Babbage_100  53.9630  1.21900  108.0    L  offshore              UTC
+1      Beatrice_100  58.1082 -3.06928  105.5    L  offshore              UTC
+2      Boerglum_100  57.3400  9.81000   31.5    M   coastal            UTC+1
+3        Cabauw_100  51.9700  4.93000  140.0    M      land              UTC
+4  EgmondaanZee_100  52.6064  4.38964  116.0    M  offshore              UTC
+No measurement-height column found. Using 100 m for all sites.
+TEMPORARY WORKAROUND: using nearest grid point from valid 2D lat/lon.
+This avoids broken rlat/rlon coordinates. Regenerate outputs after rlat/rlon are corrected.
+Babbage_100: site=(53.963, 1.219), grid=(54.013, 1.204), iy=268, ix=173, height=100.0 m
+Beatrice_100: site=(58.108, -3.069), grid=(58.045, -3.112), iy=309, ix=161, height=100.0 m
+Boerglum_100: site=(57.340, 9.810), grid=(57.305, 9.865), iy=290, ix=222, height=100.0 m
+Cabauw_100: site=(51.970, 4.930), grid=(51.993, 4.871), iy=246, ix=189, height=100.0 m
+EgmondaanZee_100: site=(52.606, 4.390), grid=(52.603, 4.324), iy=252, ix=187, height=100.0 m
+FINO1_100: site=(54.015, 6.588), grid=(53.947, 6.548), iy=262, ix=201, height=100.0 m
+FINO2_100: site=(55.007, 13.154), grid=(55.038, 13.186), iy=268, ix=237, height=100.0 m
+FINO3_100: site=(55.195, 7.119), grid=(55.225, 7.170), iy=273, ix=206, height=100.0 m
+GreaterGabbard_100: site=(51.873, 1.915), grid=(51.866, 2.004), iy=248, ix=173, height=100.0 m
+HornsRev2_100: site=(55.519, 7.788), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+HornsRevM7_100: site=(55.487, 7.975), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+Hovsore_100: site=(56.441, 8.151), grid=(56.421, 8.249), iy=283, ix=213, height=100.0 m
+Ijmuiden_100: site=(52.848, 3.436), grid=(52.844, 3.508), iy=255, ix=183, height=100.0 m
+Karehamn_100: site=(57.009, 17.006), grid=(56.994, 16.969), iy=285, ix=257, height=100.0 m
+Lillgrund_100: site=(55.500, 12.765), grid=(55.462, 12.749), iy=272, ix=235, height=100.0 m
+Oesterild_100: site=(57.079, 8.869), grid=(57.132, 8.887), iy=289, ix=217, height=100.0 m
+OesterildS_100: site=(57.051, 8.875), grid=(57.022, 8.912), iy=288, ix=217, height=100.0 m
+Omoe_100: site=(55.050, 11.130), grid=(55.051, 11.071), iy=269, ix=226, height=100.0 m
+Risoe_100: site=(55.694, 12.088), grid=(55.656, 12.140), iy=274, ix=232, height=100.0 m
+Ryningsnaas_100: site=(57.276, 15.987), grid=(57.312, 15.949), iy=288, ix=252, height=100.0 m
+Schooner_100: site=(54.050, 2.083), grid=(54.025, 2.156), iy=267, ix=178, height=100.0 m
+Siri_100: site=(56.482, 4.911), grid=(56.460, 4.834), iy=286, ix=196, height=100.0 m
+Soroe_100: site=(55.486, 11.645), grid=(55.519, 11.577), iy=273, ix=229, height=100.0 m
+Taqa_100: site=(52.306, 3.685), grid=(52.304, 3.683), iy=250, ix=183, height=100.0 m
+Tystofte_100: site=(55.240, 11.330), grid=(55.291, 11.418), iy=271, ix=228, height=100.0 m
+Utsira_100: site=(59.303, 4.887), grid=(59.263, 4.925), iy=311, ix=201, height=100.0 m
+Lindenberg_100: site=(52.170, 14.120), grid=(52.208, 14.206), iy=242, ix=241, height=100.0 m
+Hyytiala_100: site=(61.850, 24.290), grid=(61.815, 24.376), iy=330, ix=290, height=100.0 m
+Puijo_100: site=(62.910, 27.650), grid=(62.864, 27.661), iy=341, ix=303, height=100.0 m
+DockingShoal_100: site=(53.160, 0.650), grid=(53.138, 0.600), iy=261, ix=168, height=100.0 m
+GwyntYMor_100: site=(53.480, -3.510), grid=(53.498, -3.555), iy=270, ix=147, height=100.0 m
+LondonArray_100: site=(51.590, 1.390), grid=(51.556, 1.388), iy=246, ix=169, height=100.0 m
+<xarray.DataArray 'Babbage_100' (site: 32, time: 2920)> Size: 374kB
+dask.array<concatenate, shape=(32, 2920), dtype=float32, chunksize=(1, 228), chunktype=numpy.ndarray>
+Coordinates:
+  * site     (site) object 256B 'Babbage_100' ... 'LondonArray_100'
+    lat      (site) float64 256B 54.01 58.05 57.3 51.99 ... 53.14 53.5 51.56
+    lon      (site) float64 256B 1.204 -3.112 9.865 ... 0.6005 -3.555 1.388
+  * time     (time) object 23kB 2011-01-01 03:00:00 ... 2012-01-01 00:00:00
+    height   float64 8B 100.0
+    rlon     float64 8B 9.969e+36
+    rlat     float64 8B 9.969e+36
+Attributes:
+    units:         m s-1
+    grid_mapping:  crs
+    cell_methods:  time: point
+Extracting time series...
+Writing: /leonardo/home/userexternal/gluziada/VRE_CORDEX/cordex_vre/output/cordex_cmip6/WS-TS_CORDEX-CMIP6_EC-Earth3-Veg_RegCM5-0_historical_r1i1p1f1_2011-2011_instant_TEMP_NEAREST.csv
+WS extraction complete.
+TEMPORARY OUTPUT: nearest-neighbour horizontal extraction.
+Finished year 2011
+========================================
+Running year 2012
+========================================
+workers: 1 threads: 8 {'inproc://10.137.0.12/105540/4': 8}
+Model: EC-Earth3-Veg_RegCM5-0
+Experiment: historical
+Years: 2012 2012
+Aggregation method: instant
+Building WS dataset from ua/va at 50, 100, 150 m...
+Opening ua50m and va50m
+ua50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201201010100-201301010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201201010100-201301010000.nc
+va50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201201010100-201301010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201201010100-201301010000.nc
+Opening ua100m and va100m
+ua100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201201010100-201301010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201201010100-201301010000.nc
+va100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201201010100-201301010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201201010100-201301010000.nc
+Opening ua150m and va150m
+ua150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201201010100-201301010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201201010100-201301010000.nc
+va150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201201010100-201301010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201201010100-201301010000.nc
+Applying time selection: instant
+<xarray.Dataset> Size: 6GB
+Dimensions:  (height: 3, rlat: 412, rlon: 424, time: 2928)
+Coordinates:
+  * height   (height) float64 24B 50.0 100.0 150.0
+  * rlat     (rlat) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+  * rlon     (rlon) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+    lat      (rlat, rlon) float64 1MB 20.24 20.28 20.32 ... 65.66 65.61 65.55
+    lon      (rlat, rlon) float64 1MB -9.74 -9.643 -9.545 ... 61.18 61.39 61.59
+  * time     (time) object 23kB 2012-01-01 03:00:00 ... 2013-01-01 00:00:00
+Data variables:
+    WS       (height, time, rlat, rlon) float32 6GB dask.array<chunksize=(1, 675, 412, 424), meta=np.ndarray>
+Opening metadata...
+Metadata sites: 32
+Metadata columns: ['sites', 'lat', 'lon', 'elev', 'type', 'location', 'assumed timezone']
+              sites      lat      lon   elev type  location assumed timezone
+0       Babbage_100  53.9630  1.21900  108.0    L  offshore              UTC
+1      Beatrice_100  58.1082 -3.06928  105.5    L  offshore              UTC
+2      Boerglum_100  57.3400  9.81000   31.5    M   coastal            UTC+1
+3        Cabauw_100  51.9700  4.93000  140.0    M      land              UTC
+4  EgmondaanZee_100  52.6064  4.38964  116.0    M  offshore              UTC
+No measurement-height column found. Using 100 m for all sites.
+TEMPORARY WORKAROUND: using nearest grid point from valid 2D lat/lon.
+This avoids broken rlat/rlon coordinates. Regenerate outputs after rlat/rlon are corrected.
+Babbage_100: site=(53.963, 1.219), grid=(54.013, 1.204), iy=268, ix=173, height=100.0 m
+Beatrice_100: site=(58.108, -3.069), grid=(58.045, -3.112), iy=309, ix=161, height=100.0 m
+Boerglum_100: site=(57.340, 9.810), grid=(57.305, 9.865), iy=290, ix=222, height=100.0 m
+Cabauw_100: site=(51.970, 4.930), grid=(51.993, 4.871), iy=246, ix=189, height=100.0 m
+EgmondaanZee_100: site=(52.606, 4.390), grid=(52.603, 4.324), iy=252, ix=187, height=100.0 m
+FINO1_100: site=(54.015, 6.588), grid=(53.947, 6.548), iy=262, ix=201, height=100.0 m
+FINO2_100: site=(55.007, 13.154), grid=(55.038, 13.186), iy=268, ix=237, height=100.0 m
+FINO3_100: site=(55.195, 7.119), grid=(55.225, 7.170), iy=273, ix=206, height=100.0 m
+GreaterGabbard_100: site=(51.873, 1.915), grid=(51.866, 2.004), iy=248, ix=173, height=100.0 m
+HornsRev2_100: site=(55.519, 7.788), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+HornsRevM7_100: site=(55.487, 7.975), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+Hovsore_100: site=(56.441, 8.151), grid=(56.421, 8.249), iy=283, ix=213, height=100.0 m
+Ijmuiden_100: site=(52.848, 3.436), grid=(52.844, 3.508), iy=255, ix=183, height=100.0 m
+Karehamn_100: site=(57.009, 17.006), grid=(56.994, 16.969), iy=285, ix=257, height=100.0 m
+Lillgrund_100: site=(55.500, 12.765), grid=(55.462, 12.749), iy=272, ix=235, height=100.0 m
+Oesterild_100: site=(57.079, 8.869), grid=(57.132, 8.887), iy=289, ix=217, height=100.0 m
+OesterildS_100: site=(57.051, 8.875), grid=(57.022, 8.912), iy=288, ix=217, height=100.0 m
+Omoe_100: site=(55.050, 11.130), grid=(55.051, 11.071), iy=269, ix=226, height=100.0 m
+Risoe_100: site=(55.694, 12.088), grid=(55.656, 12.140), iy=274, ix=232, height=100.0 m
+Ryningsnaas_100: site=(57.276, 15.987), grid=(57.312, 15.949), iy=288, ix=252, height=100.0 m
+Schooner_100: site=(54.050, 2.083), grid=(54.025, 2.156), iy=267, ix=178, height=100.0 m
+Siri_100: site=(56.482, 4.911), grid=(56.460, 4.834), iy=286, ix=196, height=100.0 m
+Soroe_100: site=(55.486, 11.645), grid=(55.519, 11.577), iy=273, ix=229, height=100.0 m
+Taqa_100: site=(52.306, 3.685), grid=(52.304, 3.683), iy=250, ix=183, height=100.0 m
+Tystofte_100: site=(55.240, 11.330), grid=(55.291, 11.418), iy=271, ix=228, height=100.0 m
+Utsira_100: site=(59.303, 4.887), grid=(59.263, 4.925), iy=311, ix=201, height=100.0 m
+Lindenberg_100: site=(52.170, 14.120), grid=(52.208, 14.206), iy=242, ix=241, height=100.0 m
+Hyytiala_100: site=(61.850, 24.290), grid=(61.815, 24.376), iy=330, ix=290, height=100.0 m
+Puijo_100: site=(62.910, 27.650), grid=(62.864, 27.661), iy=341, ix=303, height=100.0 m
+DockingShoal_100: site=(53.160, 0.650), grid=(53.138, 0.600), iy=261, ix=168, height=100.0 m
+GwyntYMor_100: site=(53.480, -3.510), grid=(53.498, -3.555), iy=270, ix=147, height=100.0 m
+LondonArray_100: site=(51.590, 1.390), grid=(51.556, 1.388), iy=246, ix=169, height=100.0 m
+<xarray.DataArray 'Babbage_100' (site: 32, time: 2928)> Size: 375kB
+dask.array<concatenate, shape=(32, 2928), dtype=float32, chunksize=(1, 228), chunktype=numpy.ndarray>
+Coordinates:
+  * site     (site) object 256B 'Babbage_100' ... 'LondonArray_100'
+    lat      (site) float64 256B 54.01 58.05 57.3 51.99 ... 53.14 53.5 51.56
+    lon      (site) float64 256B 1.204 -3.112 9.865 ... 0.6005 -3.555 1.388
+  * time     (time) object 23kB 2012-01-01 03:00:00 ... 2013-01-01 00:00:00
+    height   float64 8B 100.0
+    rlon     float64 8B 9.969e+36
+    rlat     float64 8B 9.969e+36
+Attributes:
+    units:         m s-1
+    grid_mapping:  crs
+    cell_methods:  time: point
+Extracting time series...
+Writing: /leonardo/home/userexternal/gluziada/VRE_CORDEX/cordex_vre/output/cordex_cmip6/WS-TS_CORDEX-CMIP6_EC-Earth3-Veg_RegCM5-0_historical_r1i1p1f1_2012-2012_instant_TEMP_NEAREST.csv
+WS extraction complete.
+TEMPORARY OUTPUT: nearest-neighbour horizontal extraction.
+Finished year 2012
+========================================
+Running year 2013
+========================================
+workers: 1 threads: 8 {'inproc://10.137.0.12/106672/4': 8}
+Model: EC-Earth3-Veg_RegCM5-0
+Experiment: historical
+Years: 2013 2013
+Aggregation method: instant
+Building WS dataset from ua/va at 50, 100, 150 m...
+Opening ua50m and va50m
+ua50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201301010100-201401010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201301010100-201401010000.nc
+va50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201301010100-201401010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201301010100-201401010000.nc
+Opening ua100m and va100m
+ua100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201301010100-201401010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201301010100-201401010000.nc
+va100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201301010100-201401010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201301010100-201401010000.nc
+Opening ua150m and va150m
+ua150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201301010100-201401010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201301010100-201401010000.nc
+va150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201301010100-201401010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201301010100-201401010000.nc
+Applying time selection: instant
+<xarray.Dataset> Size: 6GB
+Dimensions:  (height: 3, rlat: 412, rlon: 424, time: 2920)
+Coordinates:
+  * height   (height) float64 24B 50.0 100.0 150.0
+  * rlat     (rlat) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+  * rlon     (rlon) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+    lat      (rlat, rlon) float64 1MB 20.24 20.28 20.32 ... 65.66 65.61 65.55
+    lon      (rlat, rlon) float64 1MB -9.74 -9.643 -9.545 ... 61.18 61.39 61.59
+  * time     (time) object 23kB 2013-01-01 03:00:00 ... 2014-01-01 00:00:00
+Data variables:
+    WS       (height, time, rlat, rlon) float32 6GB dask.array<chunksize=(1, 673, 412, 424), meta=np.ndarray>
+Opening metadata...
+Metadata sites: 32
+Metadata columns: ['sites', 'lat', 'lon', 'elev', 'type', 'location', 'assumed timezone']
+              sites      lat      lon   elev type  location assumed timezone
+0       Babbage_100  53.9630  1.21900  108.0    L  offshore              UTC
+1      Beatrice_100  58.1082 -3.06928  105.5    L  offshore              UTC
+2      Boerglum_100  57.3400  9.81000   31.5    M   coastal            UTC+1
+3        Cabauw_100  51.9700  4.93000  140.0    M      land              UTC
+4  EgmondaanZee_100  52.6064  4.38964  116.0    M  offshore              UTC
+No measurement-height column found. Using 100 m for all sites.
+TEMPORARY WORKAROUND: using nearest grid point from valid 2D lat/lon.
+This avoids broken rlat/rlon coordinates. Regenerate outputs after rlat/rlon are corrected.
+Babbage_100: site=(53.963, 1.219), grid=(54.013, 1.204), iy=268, ix=173, height=100.0 m
+Beatrice_100: site=(58.108, -3.069), grid=(58.045, -3.112), iy=309, ix=161, height=100.0 m
+Boerglum_100: site=(57.340, 9.810), grid=(57.305, 9.865), iy=290, ix=222, height=100.0 m
+Cabauw_100: site=(51.970, 4.930), grid=(51.993, 4.871), iy=246, ix=189, height=100.0 m
+EgmondaanZee_100: site=(52.606, 4.390), grid=(52.603, 4.324), iy=252, ix=187, height=100.0 m
+FINO1_100: site=(54.015, 6.588), grid=(53.947, 6.548), iy=262, ix=201, height=100.0 m
+FINO2_100: site=(55.007, 13.154), grid=(55.038, 13.186), iy=268, ix=237, height=100.0 m
+FINO3_100: site=(55.195, 7.119), grid=(55.225, 7.170), iy=273, ix=206, height=100.0 m
+GreaterGabbard_100: site=(51.873, 1.915), grid=(51.866, 2.004), iy=248, ix=173, height=100.0 m
+HornsRev2_100: site=(55.519, 7.788), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+HornsRevM7_100: site=(55.487, 7.975), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+Hovsore_100: site=(56.441, 8.151), grid=(56.421, 8.249), iy=283, ix=213, height=100.0 m
+Ijmuiden_100: site=(52.848, 3.436), grid=(52.844, 3.508), iy=255, ix=183, height=100.0 m
+Karehamn_100: site=(57.009, 17.006), grid=(56.994, 16.969), iy=285, ix=257, height=100.0 m
+Lillgrund_100: site=(55.500, 12.765), grid=(55.462, 12.749), iy=272, ix=235, height=100.0 m
+Oesterild_100: site=(57.079, 8.869), grid=(57.132, 8.887), iy=289, ix=217, height=100.0 m
+OesterildS_100: site=(57.051, 8.875), grid=(57.022, 8.912), iy=288, ix=217, height=100.0 m
+Omoe_100: site=(55.050, 11.130), grid=(55.051, 11.071), iy=269, ix=226, height=100.0 m
+Risoe_100: site=(55.694, 12.088), grid=(55.656, 12.140), iy=274, ix=232, height=100.0 m
+Ryningsnaas_100: site=(57.276, 15.987), grid=(57.312, 15.949), iy=288, ix=252, height=100.0 m
+Schooner_100: site=(54.050, 2.083), grid=(54.025, 2.156), iy=267, ix=178, height=100.0 m
+Siri_100: site=(56.482, 4.911), grid=(56.460, 4.834), iy=286, ix=196, height=100.0 m
+Soroe_100: site=(55.486, 11.645), grid=(55.519, 11.577), iy=273, ix=229, height=100.0 m
+Taqa_100: site=(52.306, 3.685), grid=(52.304, 3.683), iy=250, ix=183, height=100.0 m
+Tystofte_100: site=(55.240, 11.330), grid=(55.291, 11.418), iy=271, ix=228, height=100.0 m
+Utsira_100: site=(59.303, 4.887), grid=(59.263, 4.925), iy=311, ix=201, height=100.0 m
+Lindenberg_100: site=(52.170, 14.120), grid=(52.208, 14.206), iy=242, ix=241, height=100.0 m
+Hyytiala_100: site=(61.850, 24.290), grid=(61.815, 24.376), iy=330, ix=290, height=100.0 m
+Puijo_100: site=(62.910, 27.650), grid=(62.864, 27.661), iy=341, ix=303, height=100.0 m
+DockingShoal_100: site=(53.160, 0.650), grid=(53.138, 0.600), iy=261, ix=168, height=100.0 m
+GwyntYMor_100: site=(53.480, -3.510), grid=(53.498, -3.555), iy=270, ix=147, height=100.0 m
+LondonArray_100: site=(51.590, 1.390), grid=(51.556, 1.388), iy=246, ix=169, height=100.0 m
+<xarray.DataArray 'Babbage_100' (site: 32, time: 2920)> Size: 374kB
+dask.array<concatenate, shape=(32, 2920), dtype=float32, chunksize=(1, 228), chunktype=numpy.ndarray>
+Coordinates:
+  * site     (site) object 256B 'Babbage_100' ... 'LondonArray_100'
+    lat      (site) float64 256B 54.01 58.05 57.3 51.99 ... 53.14 53.5 51.56
+    lon      (site) float64 256B 1.204 -3.112 9.865 ... 0.6005 -3.555 1.388
+  * time     (time) object 23kB 2013-01-01 03:00:00 ... 2014-01-01 00:00:00
+    height   float64 8B 100.0
+    rlon     float64 8B 9.969e+36
+    rlat     float64 8B 9.969e+36
+Attributes:
+    units:         m s-1
+    grid_mapping:  crs
+    cell_methods:  time: point
+Extracting time series...
+Writing: /leonardo/home/userexternal/gluziada/VRE_CORDEX/cordex_vre/output/cordex_cmip6/WS-TS_CORDEX-CMIP6_EC-Earth3-Veg_RegCM5-0_historical_r1i1p1f1_2013-2013_instant_TEMP_NEAREST.csv
+WS extraction complete.
+TEMPORARY OUTPUT: nearest-neighbour horizontal extraction.
+Finished year 2013
+========================================
+Running year 2014
+========================================
+workers: 1 threads: 8 {'inproc://10.137.0.12/108836/4': 8}
+Model: EC-Earth3-Veg_RegCM5-0
+Experiment: historical
+Years: 2014 2014
+Aggregation method: instant
+Building WS dataset from ua/va at 50, 100, 150 m...
+Opening ua50m and va50m
+ua50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201401010100-201501010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201401010100-201501010000.nc
+va50m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201401010100-201501010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va50m/v20250415/va50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201401010100-201501010000.nc
+Opening ua100m and va100m
+ua100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201401010100-201501010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua100m/v20250415/ua100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201401010100-201501010000.nc
+va100m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201401010100-201501010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va100m/v20250415/va100m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201401010100-201501010000.nc
+Opening ua150m and va150m
+ua150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201401010100-201501010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua150m/v20250415/ua150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201401010100-201501010000.nc
+va150m: 1 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201401010100-201501010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/va150m/v20250415/va150m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201401010100-201501010000.nc
+Applying time selection: instant
+<xarray.Dataset> Size: 6GB
+Dimensions:  (height: 3, rlat: 412, rlon: 424, time: 2920)
+Coordinates:
+  * height   (height) float64 24B 50.0 100.0 150.0
+  * rlat     (rlat) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+  * rlon     (rlon) float64 3kB 9.969e+36 9.969e+36 ... 9.969e+36 9.969e+36
+    lat      (rlat, rlon) float64 1MB 20.24 20.28 20.32 ... 65.66 65.61 65.55
+    lon      (rlat, rlon) float64 1MB -9.74 -9.643 -9.545 ... 61.18 61.39 61.59
+  * time     (time) object 23kB 2014-01-01 03:00:00 ... 2015-01-01 00:00:00
+Data variables:
+    WS       (height, time, rlat, rlon) float32 6GB dask.array<chunksize=(1, 673, 412, 424), meta=np.ndarray>
+Opening metadata...
+Metadata sites: 32
+Metadata columns: ['sites', 'lat', 'lon', 'elev', 'type', 'location', 'assumed timezone']
+              sites      lat      lon   elev type  location assumed timezone
+0       Babbage_100  53.9630  1.21900  108.0    L  offshore              UTC
+1      Beatrice_100  58.1082 -3.06928  105.5    L  offshore              UTC
+2      Boerglum_100  57.3400  9.81000   31.5    M   coastal            UTC+1
+3        Cabauw_100  51.9700  4.93000  140.0    M      land              UTC
+4  EgmondaanZee_100  52.6064  4.38964  116.0    M  offshore              UTC
+No measurement-height column found. Using 100 m for all sites.
+TEMPORARY WORKAROUND: using nearest grid point from valid 2D lat/lon.
+This avoids broken rlat/rlon coordinates. Regenerate outputs after rlat/rlon are corrected.
+Babbage_100: site=(53.963, 1.219), grid=(54.013, 1.204), iy=268, ix=173, height=100.0 m
+Beatrice_100: site=(58.108, -3.069), grid=(58.045, -3.112), iy=309, ix=161, height=100.0 m
+Boerglum_100: site=(57.340, 9.810), grid=(57.305, 9.865), iy=290, ix=222, height=100.0 m
+Cabauw_100: site=(51.970, 4.930), grid=(51.993, 4.871), iy=246, ix=189, height=100.0 m
+EgmondaanZee_100: site=(52.606, 4.390), grid=(52.603, 4.324), iy=252, ix=187, height=100.0 m
+FINO1_100: site=(54.015, 6.588), grid=(53.947, 6.548), iy=262, ix=201, height=100.0 m
+FINO2_100: site=(55.007, 13.154), grid=(55.038, 13.186), iy=268, ix=237, height=100.0 m
+FINO3_100: site=(55.195, 7.119), grid=(55.225, 7.170), iy=273, ix=206, height=100.0 m
+GreaterGabbard_100: site=(51.873, 1.915), grid=(51.866, 2.004), iy=248, ix=173, height=100.0 m
+HornsRev2_100: site=(55.519, 7.788), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+HornsRevM7_100: site=(55.487, 7.975), grid=(55.505, 7.879), iy=275, ix=210, height=100.0 m
+Hovsore_100: site=(56.441, 8.151), grid=(56.421, 8.249), iy=283, ix=213, height=100.0 m
+Ijmuiden_100: site=(52.848, 3.436), grid=(52.844, 3.508), iy=255, ix=183, height=100.0 m
+Karehamn_100: site=(57.009, 17.006), grid=(56.994, 16.969), iy=285, ix=257, height=100.0 m
+Lillgrund_100: site=(55.500, 12.765), grid=(55.462, 12.749), iy=272, ix=235, height=100.0 m
+Oesterild_100: site=(57.079, 8.869), grid=(57.132, 8.887), iy=289, ix=217, height=100.0 m
+OesterildS_100: site=(57.051, 8.875), grid=(57.022, 8.912), iy=288, ix=217, height=100.0 m
+Omoe_100: site=(55.050, 11.130), grid=(55.051, 11.071), iy=269, ix=226, height=100.0 m
+Risoe_100: site=(55.694, 12.088), grid=(55.656, 12.140), iy=274, ix=232, height=100.0 m
+Ryningsnaas_100: site=(57.276, 15.987), grid=(57.312, 15.949), iy=288, ix=252, height=100.0 m
+Schooner_100: site=(54.050, 2.083), grid=(54.025, 2.156), iy=267, ix=178, height=100.0 m
+Siri_100: site=(56.482, 4.911), grid=(56.460, 4.834), iy=286, ix=196, height=100.0 m
+Soroe_100: site=(55.486, 11.645), grid=(55.519, 11.577), iy=273, ix=229, height=100.0 m
+Taqa_100: site=(52.306, 3.685), grid=(52.304, 3.683), iy=250, ix=183, height=100.0 m
+Tystofte_100: site=(55.240, 11.330), grid=(55.291, 11.418), iy=271, ix=228, height=100.0 m
+Utsira_100: site=(59.303, 4.887), grid=(59.263, 4.925), iy=311, ix=201, height=100.0 m
+Lindenberg_100: site=(52.170, 14.120), grid=(52.208, 14.206), iy=242, ix=241, height=100.0 m
+Hyytiala_100: site=(61.850, 24.290), grid=(61.815, 24.376), iy=330, ix=290, height=100.0 m
+Puijo_100: site=(62.910, 27.650), grid=(62.864, 27.661), iy=341, ix=303, height=100.0 m
+DockingShoal_100: site=(53.160, 0.650), grid=(53.138, 0.600), iy=261, ix=168, height=100.0 m
+GwyntYMor_100: site=(53.480, -3.510), grid=(53.498, -3.555), iy=270, ix=147, height=100.0 m
+LondonArray_100: site=(51.590, 1.390), grid=(51.556, 1.388), iy=246, ix=169, height=100.0 m
+<xarray.DataArray 'Babbage_100' (site: 32, time: 2920)> Size: 374kB
+dask.array<concatenate, shape=(32, 2920), dtype=float32, chunksize=(1, 228), chunktype=numpy.ndarray>
+Coordinates:
+  * site     (site) object 256B 'Babbage_100' ... 'LondonArray_100'
+    lat      (site) float64 256B 54.01 58.05 57.3 51.99 ... 53.14 53.5 51.56
+    lon      (site) float64 256B 1.204 -3.112 9.865 ... 0.6005 -3.555 1.388
+  * time     (time) object 23kB 2014-01-01 03:00:00 ... 2015-01-01 00:00:00
+    height   float64 8B 100.0
+    rlon     float64 8B 9.969e+36
+    rlat     float64 8B 9.969e+36
+Attributes:
+    units:         m s-1
+    grid_mapping:  crs
+    cell_methods:  time: point
+Extracting time series...
+Writing: /leonardo/home/userexternal/gluziada/VRE_CORDEX/cordex_vre/output/cordex_cmip6/WS-TS_CORDEX-CMIP6_EC-Earth3-Veg_RegCM5-0_historical_r1i1p1f1_2014-2014_instant_TEMP_NEAREST.csv
+WS extraction complete.
+TEMPORARY OUTPUT: nearest-neighbour horizontal extraction.
+Finished year 2014
+All years finished.

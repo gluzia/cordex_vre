@@ -1,0 +1,1 @@
+/var/spool/slurmd/job48208394/slurm_script: line 31: 4118144 Segmentation fault      (core dumped) python scripts/extract_TS-WS_cordex_cmip6_leonardo_TEMP_NEAREST.py EUR-12 EC-Earth3-Veg historical r1i1p1f1 RegCM5-0 v1-r1 v20250415 1995 2004
