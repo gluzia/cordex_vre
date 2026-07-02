@@ -1,0 +1,36 @@
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)

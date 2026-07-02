@@ -1,0 +1,624 @@
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+2026-07-01 18:11:15,523 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 5.39 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:11:52,796 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 6.05 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:11:52,853 - distributed.worker.memory - WARNING - Worker is at 73% memory usage. Resuming worker. Process memory: 5.50 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:11:53,253 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 5.98 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:11:53,353 - distributed.worker.memory - WARNING - Worker is at 69% memory usage. Resuming worker. Process memory: 5.18 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:11:54,645 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 6.10 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:11:54,753 - distributed.worker.memory - WARNING - Worker is at 69% memory usage. Resuming worker. Process memory: 5.19 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:11:55,211 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 6.10 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:11:55,606 - distributed.worker.memory - WARNING - Worker is at 69% memory usage. Resuming worker. Process memory: 5.18 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:11:56,333 - distributed.worker.memory - WARNING - Worker is at 86% memory usage. Pausing worker.  Process memory: 6.41 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:11:57,367 - distributed.worker.memory - WARNING - Worker is at 70% memory usage. Resuming worker. Process memory: 5.26 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:11:58,787 - distributed.worker.memory - WARNING - Worker is at 82% memory usage. Pausing worker.  Process memory: 6.12 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:11:59,160 - distributed.worker.memory - WARNING - Worker is at 74% memory usage. Resuming worker. Process memory: 5.56 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:12:00,880 - distributed.worker.memory - WARNING - Worker is at 82% memory usage. Pausing worker.  Process memory: 6.15 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:12:01,609 - distributed.worker.memory - WARNING - Worker is at 78% memory usage. Resuming worker. Process memory: 5.87 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:12:03,760 - distributed.worker.memory - WARNING - Worker is at 84% memory usage. Pausing worker.  Process memory: 6.30 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:12:04,096 - distributed.worker.memory - WARNING - Worker is at 72% memory usage. Resuming worker. Process memory: 5.42 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:12:08,223 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 6.11 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:12:08,334 - distributed.worker.memory - WARNING - Worker is at 76% memory usage. Resuming worker. Process memory: 5.68 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:12:29,652 - distributed.worker.memory - WARNING - Worker is at 82% memory usage. Pausing worker.  Process memory: 6.16 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:12:30,178 - distributed.worker.memory - WARNING - Worker is at 77% memory usage. Resuming worker. Process memory: 5.76 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:12:35,160 - distributed.worker.memory - WARNING - Worker is at 82% memory usage. Pausing worker.  Process memory: 6.11 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:12:35,611 - distributed.worker.memory - WARNING - Worker is at 68% memory usage. Resuming worker. Process memory: 5.09 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:12:38,665 - distributed.worker.memory - WARNING - Worker is at 88% memory usage. Pausing worker.  Process memory: 6.57 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:12:39,517 - distributed.worker.memory - WARNING - Worker is at 73% memory usage. Resuming worker. Process memory: 5.45 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:13:07,840 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 5.98 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:13:08,153 - distributed.worker.memory - WARNING - Worker is at 79% memory usage. Resuming worker. Process memory: 5.89 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:13:08,253 - distributed.worker.memory - WARNING - Worker is at 82% memory usage. Pausing worker.  Process memory: 6.16 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:13:08,354 - distributed.worker.memory - WARNING - Worker is at 79% memory usage. Resuming worker. Process memory: 5.89 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:13:08,453 - distributed.worker.memory - WARNING - Worker is at 82% memory usage. Pausing worker.  Process memory: 6.12 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:13:08,584 - distributed.worker.memory - WARNING - Worker is at 72% memory usage. Resuming worker. Process memory: 5.39 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:13:09,188 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 5.97 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:13:10,375 - distributed.worker.memory - WARNING - Worker is at 73% memory usage. Resuming worker. Process memory: 5.46 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:13:11,172 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 6.04 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:13:12,162 - distributed.worker.memory - WARNING - Worker is at 72% memory usage. Resuming worker. Process memory: 5.39 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:13:22,845 - distributed.worker.memory - WARNING - Worker is at 92% memory usage. Pausing worker.  Process memory: 6.87 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:13:23,758 - distributed.worker.memory - WARNING - Worker is at 77% memory usage. Resuming worker. Process memory: 5.77 GiB -- Worker memory limit: 7.45 GiB
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+2026-07-01 18:14:23,610 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 5.38 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:14:59,947 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 6.07 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:15:00,027 - distributed.worker.memory - WARNING - Worker is at 74% memory usage. Resuming worker. Process memory: 5.56 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:15:02,547 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 6.03 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:15:02,973 - distributed.worker.memory - WARNING - Worker is at 72% memory usage. Resuming worker. Process memory: 5.41 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:15:04,020 - distributed.worker.memory - WARNING - Worker is at 82% memory usage. Pausing worker.  Process memory: 6.12 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:15:04,340 - distributed.worker.memory - WARNING - Worker is at 72% memory usage. Resuming worker. Process memory: 5.43 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:15:34,704 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 5.99 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:15:35,026 - distributed.worker.memory - WARNING - Worker is at 78% memory usage. Resuming worker. Process memory: 5.85 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:15:35,126 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 6.10 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:15:35,226 - distributed.worker.memory - WARNING - Worker is at 78% memory usage. Resuming worker. Process memory: 5.82 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:15:35,326 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 6.05 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:15:35,462 - distributed.worker.memory - WARNING - Worker is at 71% memory usage. Resuming worker. Process memory: 5.32 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:15:39,069 - distributed.worker.memory - WARNING - Worker is at 85% memory usage. Pausing worker.  Process memory: 6.35 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:15:39,436 - distributed.worker.memory - WARNING - Worker is at 73% memory usage. Resuming worker. Process memory: 5.45 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:15:45,710 - distributed.worker.memory - WARNING - Worker is at 85% memory usage. Pausing worker.  Process memory: 6.37 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:15:46,350 - distributed.worker.memory - WARNING - Worker is at 75% memory usage. Resuming worker. Process memory: 5.64 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:16:12,174 - distributed.worker.memory - WARNING - Worker is at 85% memory usage. Pausing worker.  Process memory: 6.40 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:16:12,626 - distributed.worker.memory - WARNING - Worker is at 74% memory usage. Resuming worker. Process memory: 5.55 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:16:14,419 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 6.03 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:16:14,945 - distributed.worker.memory - WARNING - Worker is at 75% memory usage. Resuming worker. Process memory: 5.60 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:16:16,455 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 6.08 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:16:16,845 - distributed.worker.memory - WARNING - Worker is at 74% memory usage. Resuming worker. Process memory: 5.52 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:16:19,103 - distributed.worker.memory - WARNING - Worker is at 82% memory usage. Pausing worker.  Process memory: 6.11 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:16:19,494 - distributed.worker.memory - WARNING - Worker is at 70% memory usage. Resuming worker. Process memory: 5.29 GiB -- Worker memory limit: 7.45 GiB
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+2026-07-01 18:17:14,210 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 5.30 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:17:51,656 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 6.05 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:17:51,700 - distributed.worker.memory - WARNING - Worker is at 73% memory usage. Resuming worker. Process memory: 5.45 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:17:53,543 - distributed.worker.memory - WARNING - Worker is at 84% memory usage. Pausing worker.  Process memory: 6.32 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:17:54,106 - distributed.worker.memory - WARNING - Worker is at 70% memory usage. Resuming worker. Process memory: 5.29 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:18:28,048 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 5.97 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:18:28,277 - distributed.worker.memory - WARNING - Worker is at 76% memory usage. Resuming worker. Process memory: 5.71 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:18:28,377 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 5.98 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:18:28,477 - distributed.worker.memory - WARNING - Worker is at 76% memory usage. Resuming worker. Process memory: 5.71 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:18:30,662 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 6.01 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:18:31,210 - distributed.worker.memory - WARNING - Worker is at 70% memory usage. Resuming worker. Process memory: 5.25 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:18:46,106 - distributed.worker.memory - WARNING - Worker is at 88% memory usage. Pausing worker.  Process memory: 6.61 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:18:46,458 - distributed.worker.memory - WARNING - Worker is at 77% memory usage. Resuming worker. Process memory: 5.80 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:18:52,856 - distributed.worker.memory - WARNING - Worker is at 87% memory usage. Pausing worker.  Process memory: 6.51 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:18:53,663 - distributed.worker.memory - WARNING - Worker is at 69% memory usage. Resuming worker. Process memory: 5.19 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:19:14,077 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 6.09 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:19:14,377 - distributed.worker.memory - WARNING - Worker is at 78% memory usage. Resuming worker. Process memory: 5.83 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:19:14,477 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 6.09 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:19:14,577 - distributed.worker.memory - WARNING - Worker is at 77% memory usage. Resuming worker. Process memory: 5.81 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:19:14,678 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 6.05 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:19:14,802 - distributed.worker.memory - WARNING - Worker is at 71% memory usage. Resuming worker. Process memory: 5.30 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:19:16,036 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 6.08 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:19:16,809 - distributed.worker.memory - WARNING - Worker is at 71% memory usage. Resuming worker. Process memory: 5.31 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:19:18,821 - distributed.worker.memory - WARNING - Worker is at 84% memory usage. Pausing worker.  Process memory: 6.26 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:19:21,383 - distributed.worker.memory - WARNING - Worker is at 70% memory usage. Resuming worker. Process memory: 5.25 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:19:34,858 - distributed.worker.memory - WARNING - Worker is at 83% memory usage. Pausing worker.  Process memory: 6.21 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:19:35,334 - distributed.worker.memory - WARNING - Worker is at 52% memory usage. Resuming worker. Process memory: 3.91 GiB -- Worker memory limit: 7.45 GiB
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+2026-07-01 18:20:13,944 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 5.40 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:20:51,713 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 5.97 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:20:51,923 - distributed.worker.memory - WARNING - Worker is at 73% memory usage. Resuming worker. Process memory: 5.49 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:20:52,112 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 5.99 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:20:52,212 - distributed.worker.memory - WARNING - Worker is at 76% memory usage. Resuming worker. Process memory: 5.71 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:20:52,313 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 5.96 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:20:52,412 - distributed.worker.memory - WARNING - Worker is at 69% memory usage. Resuming worker. Process memory: 5.16 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:20:54,438 - distributed.worker.memory - WARNING - Worker is at 82% memory usage. Pausing worker.  Process memory: 6.14 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:20:54,810 - distributed.worker.memory - WARNING - Worker is at 77% memory usage. Resuming worker. Process memory: 5.77 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:21:28,418 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 6.03 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:21:28,736 - distributed.worker.memory - WARNING - Worker is at 75% memory usage. Resuming worker. Process memory: 5.62 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:21:28,911 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 6.00 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:21:29,012 - distributed.worker.memory - WARNING - Worker is at 76% memory usage. Resuming worker. Process memory: 5.68 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:21:29,213 - distributed.worker.memory - WARNING - Worker is at 82% memory usage. Pausing worker.  Process memory: 6.17 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:21:29,313 - distributed.worker.memory - WARNING - Worker is at 72% memory usage. Resuming worker. Process memory: 5.37 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:22:17,657 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 6.10 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:22:18,051 - distributed.worker.memory - WARNING - Worker is at 71% memory usage. Resuming worker. Process memory: 5.34 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:22:21,645 - distributed.worker.memory - WARNING - Worker is at 83% memory usage. Pausing worker.  Process memory: 6.22 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:22:21,925 - distributed.worker.memory - WARNING - Worker is at 77% memory usage. Resuming worker. Process memory: 5.78 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:22:22,026 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 6.03 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:22:22,141 - distributed.worker.memory - WARNING - Worker is at 76% memory usage. Resuming worker. Process memory: 5.68 GiB -- Worker memory limit: 7.45 GiB
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+2026-07-01 18:23:07,309 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 5.44 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:23:44,291 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 6.04 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:23:44,431 - distributed.worker.memory - WARNING - Worker is at 74% memory usage. Resuming worker. Process memory: 5.57 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:23:44,631 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 5.99 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:23:44,731 - distributed.worker.memory - WARNING - Worker is at 75% memory usage. Resuming worker. Process memory: 5.64 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:23:46,792 - distributed.worker.memory - WARNING - Worker is at 84% memory usage. Pausing worker.  Process memory: 6.33 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:23:46,969 - distributed.worker.memory - WARNING - Worker is at 75% memory usage. Resuming worker. Process memory: 5.61 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:23:51,244 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 6.01 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:23:51,592 - distributed.worker.memory - WARNING - Worker is at 73% memory usage. Resuming worker. Process memory: 5.45 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:23:53,923 - distributed.worker.memory - WARNING - Worker is at 85% memory usage. Pausing worker.  Process memory: 6.34 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:23:55,361 - distributed.worker.memory - WARNING - Worker is at 69% memory usage. Resuming worker. Process memory: 5.18 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:24:19,331 - distributed.worker.memory - WARNING - Worker is at 82% memory usage. Pausing worker.  Process memory: 6.15 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:24:19,531 - distributed.worker.memory - WARNING - Worker is at 76% memory usage. Resuming worker. Process memory: 5.72 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:24:19,632 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 5.99 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:24:19,732 - distributed.worker.memory - WARNING - Worker is at 76% memory usage. Resuming worker. Process memory: 5.72 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:24:19,831 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 5.97 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:24:19,949 - distributed.worker.memory - WARNING - Worker is at 70% memory usage. Resuming worker. Process memory: 5.22 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:24:24,514 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 6.01 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:24:24,832 - distributed.worker.memory - WARNING - Worker is at 71% memory usage. Resuming worker. Process memory: 5.33 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:24:29,839 - distributed.worker.memory - WARNING - Worker is at 84% memory usage. Pausing worker.  Process memory: 6.29 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:24:31,286 - distributed.worker.memory - WARNING - Worker is at 62% memory usage. Resuming worker. Process memory: 4.65 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:25:07,646 - distributed.worker.memory - WARNING - Worker is at 82% memory usage. Pausing worker.  Process memory: 6.11 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:25:08,132 - distributed.worker.memory - WARNING - Worker is at 71% memory usage. Resuming worker. Process memory: 5.30 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:25:26,290 - distributed.worker.memory - WARNING - Worker is at 84% memory usage. Pausing worker.  Process memory: 6.32 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:25:26,620 - distributed.worker.memory - WARNING - Worker is at 79% memory usage. Resuming worker. Process memory: 5.91 GiB -- Worker memory limit: 7.45 GiB
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+2026-07-01 18:25:59,303 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 5.43 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:26:35,257 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 6.04 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:26:35,357 - distributed.worker.memory - WARNING - Worker is at 73% memory usage. Resuming worker. Process memory: 5.46 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:26:41,504 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 5.99 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:26:41,878 - distributed.worker.memory - WARNING - Worker is at 68% memory usage. Resuming worker. Process memory: 5.10 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:26:48,826 - distributed.worker.memory - WARNING - Worker is at 84% memory usage. Pausing worker.  Process memory: 6.31 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:26:48,984 - distributed.worker.memory - WARNING - Worker is at 72% memory usage. Resuming worker. Process memory: 5.42 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:27:19,626 - distributed.worker.memory - WARNING - Worker is at 83% memory usage. Pausing worker.  Process memory: 6.25 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:27:20,016 - distributed.worker.memory - WARNING - Worker is at 77% memory usage. Resuming worker. Process memory: 5.77 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:27:21,935 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 5.98 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:27:22,455 - distributed.worker.memory - WARNING - Worker is at 74% memory usage. Resuming worker. Process memory: 5.54 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:27:25,832 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 5.96 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:27:26,679 - distributed.worker.memory - WARNING - Worker is at 70% memory usage. Resuming worker. Process memory: 5.23 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:27:48,308 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 5.99 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:27:48,567 - distributed.worker.memory - WARNING - Worker is at 77% memory usage. Resuming worker. Process memory: 5.80 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:27:48,658 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 6.03 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:27:49,065 - distributed.worker.memory - WARNING - Worker is at 73% memory usage. Resuming worker. Process memory: 5.45 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:27:50,357 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 5.98 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:27:50,459 - distributed.worker.memory - WARNING - Worker is at 79% memory usage. Resuming worker. Process memory: 5.92 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:27:52,560 - distributed.worker.memory - WARNING - Worker is at 87% memory usage. Pausing worker.  Process memory: 6.48 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:27:52,917 - distributed.worker.memory - WARNING - Worker is at 74% memory usage. Resuming worker. Process memory: 5.53 GiB -- Worker memory limit: 7.45 GiB
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+2026-07-01 18:28:50,179 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 5.40 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:30:09,216 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 6.07 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:30:10,019 - distributed.worker.memory - WARNING - Worker is at 69% memory usage. Resuming worker. Process memory: 5.17 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:30:12,070 - distributed.worker.memory - WARNING - Worker is at 84% memory usage. Pausing worker.  Process memory: 6.32 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:30:12,429 - distributed.worker.memory - WARNING - Worker is at 77% memory usage. Resuming worker. Process memory: 5.78 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:30:39,855 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 5.97 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:30:40,665 - distributed.worker.memory - WARNING - Worker is at 76% memory usage. Resuming worker. Process memory: 5.71 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:30:41,239 - distributed.worker.memory - WARNING - Worker is at 82% memory usage. Pausing worker.  Process memory: 6.18 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:30:41,640 - distributed.worker.memory - WARNING - Worker is at 79% memory usage. Resuming worker. Process memory: 5.95 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:30:42,568 - distributed.worker.memory - WARNING - Worker is at 88% memory usage. Pausing worker.  Process memory: 6.61 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:30:43,702 - distributed.worker.memory - WARNING - Worker is at 75% memory usage. Resuming worker. Process memory: 5.65 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:30:47,395 - distributed.worker.memory - WARNING - Worker is at 85% memory usage. Pausing worker.  Process memory: 6.34 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:30:48,173 - distributed.worker.memory - WARNING - Worker is at 76% memory usage. Resuming worker. Process memory: 5.67 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:30:51,014 - distributed.worker.memory - WARNING - Worker is at 86% memory usage. Pausing worker.  Process memory: 6.45 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:30:51,540 - distributed.worker.memory - WARNING - Worker is at 70% memory usage. Resuming worker. Process memory: 5.22 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:30:52,548 - distributed.worker.memory - WARNING - Worker is at 82% memory usage. Pausing worker.  Process memory: 6.11 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:30:52,944 - distributed.worker.memory - WARNING - Worker is at 69% memory usage. Resuming worker. Process memory: 5.14 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:30:59,544 - distributed.worker.memory - WARNING - Worker is at 87% memory usage. Pausing worker.  Process memory: 6.53 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:31:00,723 - distributed.worker.memory - WARNING - Worker is at 66% memory usage. Resuming worker. Process memory: 4.97 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:31:06,024 - distributed.worker.memory - WARNING - Worker is at 87% memory usage. Pausing worker.  Process memory: 6.53 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:31:07,020 - distributed.worker.memory - WARNING - Worker is at 77% memory usage. Resuming worker. Process memory: 5.78 GiB -- Worker memory limit: 7.45 GiB
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+2026-07-01 18:31:46,127 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 5.31 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:32:23,280 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 6.04 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:32:23,323 - distributed.worker.memory - WARNING - Worker is at 73% memory usage. Resuming worker. Process memory: 5.51 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:32:23,495 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 5.97 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:32:23,595 - distributed.worker.memory - WARNING - Worker is at 76% memory usage. Resuming worker. Process memory: 5.70 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:32:25,414 - distributed.worker.memory - WARNING - Worker is at 87% memory usage. Pausing worker.  Process memory: 6.54 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:32:25,795 - distributed.worker.memory - WARNING - Worker is at 77% memory usage. Resuming worker. Process memory: 5.77 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:32:26,578 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 5.97 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:32:26,945 - distributed.worker.memory - WARNING - Worker is at 71% memory usage. Resuming worker. Process memory: 5.34 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:32:28,044 - distributed.worker.memory - WARNING - Worker is at 82% memory usage. Pausing worker.  Process memory: 6.15 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:32:28,493 - distributed.worker.memory - WARNING - Worker is at 73% memory usage. Resuming worker. Process memory: 5.45 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:32:58,949 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 6.07 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:32:59,294 - distributed.worker.memory - WARNING - Worker is at 76% memory usage. Resuming worker. Process memory: 5.72 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:32:59,494 - distributed.worker.memory - WARNING - Worker is at 82% memory usage. Pausing worker.  Process memory: 6.12 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:32:59,594 - distributed.worker.memory - WARNING - Worker is at 77% memory usage. Resuming worker. Process memory: 5.78 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:32:59,694 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 6.01 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:32:59,812 - distributed.worker.memory - WARNING - Worker is at 77% memory usage. Resuming worker. Process memory: 5.76 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:33:03,343 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 6.00 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:33:03,480 - distributed.worker.memory - WARNING - Worker is at 72% memory usage. Resuming worker. Process memory: 5.38 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:33:05,293 - distributed.worker.memory - WARNING - Worker is at 83% memory usage. Pausing worker.  Process memory: 6.25 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:33:05,655 - distributed.worker.memory - WARNING - Worker is at 79% memory usage. Resuming worker. Process memory: 5.95 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:33:36,883 - distributed.worker.memory - WARNING - Worker is at 84% memory usage. Pausing worker.  Process memory: 6.29 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:33:37,456 - distributed.worker.memory - WARNING - Worker is at 69% memory usage. Resuming worker. Process memory: 5.19 GiB -- Worker memory limit: 7.45 GiB
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+2026-07-01 18:34:41,937 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 5.38 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:35:19,184 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 6.00 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:35:19,225 - distributed.worker.memory - WARNING - Worker is at 71% memory usage. Resuming worker. Process memory: 5.36 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:35:21,415 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 5.99 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:35:21,782 - distributed.worker.memory - WARNING - Worker is at 73% memory usage. Resuming worker. Process memory: 5.49 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:35:56,875 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 6.01 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:35:57,207 - distributed.worker.memory - WARNING - Worker is at 77% memory usage. Resuming worker. Process memory: 5.74 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:35:57,408 - distributed.worker.memory - WARNING - Worker is at 82% memory usage. Pausing worker.  Process memory: 6.17 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:35:57,508 - distributed.worker.memory - WARNING - Worker is at 78% memory usage. Resuming worker. Process memory: 5.86 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:35:57,608 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 6.09 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:35:57,729 - distributed.worker.memory - WARNING - Worker is at 71% memory usage. Resuming worker. Process memory: 5.30 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:35:59,377 - distributed.worker.memory - WARNING - Worker is at 83% memory usage. Pausing worker.  Process memory: 6.21 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:35:59,723 - distributed.worker.memory - WARNING - Worker is at 78% memory usage. Resuming worker. Process memory: 5.84 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:36:00,179 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 6.08 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:36:00,601 - distributed.worker.memory - WARNING - Worker is at 77% memory usage. Resuming worker. Process memory: 5.80 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:36:04,256 - distributed.worker.memory - WARNING - Worker is at 85% memory usage. Pausing worker.  Process memory: 6.39 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:36:04,327 - distributed.worker.memory - WARNING - Worker is at 74% memory usage. Resuming worker. Process memory: 5.52 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:36:13,226 - distributed.worker.memory - WARNING - Worker is at 86% memory usage. Pausing worker.  Process memory: 6.42 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:36:14,461 - distributed.worker.memory - WARNING - Worker is at 73% memory usage. Resuming worker. Process memory: 5.44 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:36:38,028 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 6.04 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:36:38,307 - distributed.worker.memory - WARNING - Worker is at 78% memory usage. Resuming worker. Process memory: 5.87 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:36:38,408 - distributed.worker.memory - WARNING - Worker is at 82% memory usage. Pausing worker.  Process memory: 6.14 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:36:38,507 - distributed.worker.memory - WARNING - Worker is at 78% memory usage. Resuming worker. Process memory: 5.87 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:36:38,607 - distributed.worker.memory - WARNING - Worker is at 82% memory usage. Pausing worker.  Process memory: 6.12 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:36:38,808 - distributed.worker.memory - WARNING - Worker is at 74% memory usage. Resuming worker. Process memory: 5.56 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:36:39,389 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 6.02 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:36:39,715 - distributed.worker.memory - WARNING - Worker is at 76% memory usage. Resuming worker. Process memory: 5.67 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:36:40,016 - distributed.worker.memory - WARNING - Worker is at 83% memory usage. Pausing worker.  Process memory: 6.23 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:36:40,107 - distributed.worker.memory - WARNING - Worker is at 78% memory usage. Resuming worker. Process memory: 5.88 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:36:40,820 - distributed.worker.memory - WARNING - Worker is at 82% memory usage. Pausing worker.  Process memory: 6.14 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:36:41,377 - distributed.worker.memory - WARNING - Worker is at 68% memory usage. Resuming worker. Process memory: 5.08 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:36:43,249 - distributed.worker.memory - WARNING - Worker is at 86% memory usage. Pausing worker.  Process memory: 6.43 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:36:43,641 - distributed.worker.memory - WARNING - Worker is at 70% memory usage. Resuming worker. Process memory: 5.23 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:36:45,206 - distributed.worker.memory - WARNING - Worker is at 85% memory usage. Pausing worker.  Process memory: 6.40 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:36:46,085 - distributed.worker.memory - WARNING - Worker is at 69% memory usage. Resuming worker. Process memory: 5.20 GiB -- Worker memory limit: 7.45 GiB
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+/leonardo/pub/userexternal/ggiulian/local/lib/python3.13/site-packages/dask/_task_spec.py:767: FutureWarning: Usage of 'use_cftime' as a kwarg is deprecated. Please pass a 'CFDatetimeCoder' instance initialized with 'use_cftime' to the 'decode_times' kwarg instead.
+Example usage:
+    time_coder = xr.coders.CFDatetimeCoder(use_cftime=True)
+    ds = xr.open_dataset(decode_times=time_coder)
+
+  return self.func(*new_argspec, **kwargs)
+2026-07-01 18:37:46,398 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 5.26 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:38:24,480 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 6.09 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:38:24,575 - distributed.worker.memory - WARNING - Worker is at 75% memory usage. Resuming worker. Process memory: 5.65 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:38:24,976 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 6.09 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:38:25,075 - distributed.worker.memory - WARNING - Worker is at 70% memory usage. Resuming worker. Process memory: 5.27 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:38:36,330 - distributed.worker.memory - WARNING - Worker is at 84% memory usage. Pausing worker.  Process memory: 6.27 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:38:36,766 - distributed.worker.memory - WARNING - Worker is at 77% memory usage. Resuming worker. Process memory: 5.80 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:38:36,922 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 6.00 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:38:37,389 - distributed.worker.memory - WARNING - Worker is at 63% memory usage. Resuming worker. Process memory: 4.76 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:38:40,983 - distributed.worker.memory - WARNING - Worker is at 82% memory usage. Pausing worker.  Process memory: 6.12 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:38:41,396 - distributed.worker.memory - WARNING - Worker is at 77% memory usage. Resuming worker. Process memory: 5.77 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:38:50,593 - distributed.worker.memory - WARNING - Worker is at 89% memory usage. Pausing worker.  Process memory: 6.66 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:38:50,978 - distributed.worker.memory - WARNING - Worker is at 76% memory usage. Resuming worker. Process memory: 5.73 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:38:51,079 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 5.96 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:38:51,179 - distributed.worker.memory - WARNING - Worker is at 69% memory usage. Resuming worker. Process memory: 5.16 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:39:12,665 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 6.01 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:39:12,774 - distributed.worker.memory - WARNING - Worker is at 74% memory usage. Resuming worker. Process memory: 5.56 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:39:16,775 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 6.02 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:39:16,874 - distributed.worker.memory - WARNING - Worker is at 72% memory usage. Resuming worker. Process memory: 5.41 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:39:19,054 - distributed.worker.memory - WARNING - Worker is at 87% memory usage. Pausing worker.  Process memory: 6.52 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:39:19,406 - distributed.worker.memory - WARNING - Worker is at 74% memory usage. Resuming worker. Process memory: 5.55 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:39:21,272 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 5.98 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:39:21,924 - distributed.worker.memory - WARNING - Worker is at 73% memory usage. Resuming worker. Process memory: 5.49 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:39:25,855 - distributed.worker.memory - WARNING - Worker is at 88% memory usage. Pausing worker.  Process memory: 6.56 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:39:26,292 - distributed.worker.memory - WARNING - Worker is at 76% memory usage. Resuming worker. Process memory: 5.68 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:39:30,665 - distributed.worker.memory - WARNING - Worker is at 88% memory usage. Pausing worker.  Process memory: 6.57 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:39:31,042 - distributed.worker.memory - WARNING - Worker is at 79% memory usage. Resuming worker. Process memory: 5.94 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:39:32,440 - distributed.worker.memory - WARNING - Worker is at 90% memory usage. Pausing worker.  Process memory: 6.75 GiB -- Worker memory limit: 7.45 GiB
+2026-07-01 18:39:33,385 - distributed.worker.memory - WARNING - Worker is at 79% memory usage. Resuming worker. Process memory: 5.96 GiB -- Worker memory limit: 7.45 GiB

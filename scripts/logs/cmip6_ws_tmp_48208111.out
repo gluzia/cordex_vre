@@ -1,0 +1,10 @@
+workers: 1 threads: 8 {'inproc://10.137.0.12/4113351/4': 8}
+Model: EC-Earth3-Veg_RegCM5-0
+Experiment: historical
+Years: 1996 2014
+Aggregation method: instant
+Building WS dataset from ua/va at 50, 100, 150 m...
+Opening ua50m and va50m
+ua50m: 19 files
+ first: /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_199601010100-199701010000.nc
+ last : /leonardo_work/ICT26_ESP/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/ua50m/v20250415/ua50m_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_201401010100-201501010000.nc
